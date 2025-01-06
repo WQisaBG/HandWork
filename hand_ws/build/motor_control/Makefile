@@ -223,6 +223,19 @@ deal_http/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal_http.dir/build.make CMakeFiles/deal_http.dir/build
 .PHONY : deal_http/fast
 
+#=============================================================================
+# Target rules for targets named send_motor_command
+
+# Build rule for target.
+send_motor_command: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_motor_command
+.PHONY : send_motor_command
+
+# fast build rule for target.
+send_motor_command/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/build
+.PHONY : send_motor_command/fast
+
 src/adapter_http.o: src/adapter_http.cpp.o
 .PHONY : src/adapter_http.o
 
@@ -271,6 +284,30 @@ src/deal_http.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal_http.dir/build.make CMakeFiles/deal_http.dir/src/deal_http.cpp.s
 .PHONY : src/deal_http.cpp.s
 
+src/send_motor_command.o: src/send_motor_command.cpp.o
+.PHONY : src/send_motor_command.o
+
+# target to build an object file
+src/send_motor_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/src/send_motor_command.cpp.o
+.PHONY : src/send_motor_command.cpp.o
+
+src/send_motor_command.i: src/send_motor_command.cpp.i
+.PHONY : src/send_motor_command.i
+
+# target to preprocess a source file
+src/send_motor_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/src/send_motor_command.cpp.i
+.PHONY : src/send_motor_command.cpp.i
+
+src/send_motor_command.s: src/send_motor_command.cpp.s
+.PHONY : src/send_motor_command.s
+
+# target to generate assembly for a file
+src/send_motor_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/src/send_motor_command.cpp.s
+.PHONY : src/send_motor_command.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... adapter_http"
 	@echo "... deal_http"
+	@echo "... send_motor_command"
 	@echo "... src/adapter_http.o"
 	@echo "... src/adapter_http.i"
 	@echo "... src/adapter_http.s"
 	@echo "... src/deal_http.o"
 	@echo "... src/deal_http.i"
 	@echo "... src/deal_http.s"
+	@echo "... src/send_motor_command.o"
+	@echo "... src/send_motor_command.i"
+	@echo "... src/send_motor_command.s"
 .PHONY : help
 
 

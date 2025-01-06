@@ -248,7 +248,7 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 SITE:STRING=agvcoreAB
 
 //Path to a library.
-_lib:FILEPATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/agvcore/HandWork/hand_ws/install/serial/lib/libserial.a
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
@@ -417,6 +417,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/jazzy/share/rosidl_typesupp
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for serial.
+serial_DIR:PATH=/home/agvcore/HandWork/hand_ws/install/serial/share/serial/cmake
 
 //The directory containing a CMake configuration file for service_msgs.
 service_msgs_DIR:PATH=/opt/ros/jazzy/share/service_msgs/cmake

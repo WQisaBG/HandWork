@@ -2,6 +2,7 @@
 /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/motor_control_uninstall.dir
 /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/adapter_http.dir
 /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/deal_http.dir
+/home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/send_motor_command.dir
 /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/test.dir
 /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/edit_cache.dir
 /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles/rebuild_cache.dir

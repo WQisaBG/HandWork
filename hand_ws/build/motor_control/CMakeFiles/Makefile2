@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/agvcore/HandWork/hand_ws/build/motor_control
 # The main recursive "all" target.
 all: CMakeFiles/adapter_http.dir/all
 all: CMakeFiles/deal_http.dir/all
+all: CMakeFiles/send_motor_command.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/motor_control_uninstall.dir/clean
 clean: CMakeFiles/adapter_http.dir/clean
 clean: CMakeFiles/deal_http.dir/clean
+clean: CMakeFiles/send_motor_command.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +183,32 @@ deal_http: CMakeFiles/deal_http.dir/rule
 CMakeFiles/deal_http.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal_http.dir/build.make CMakeFiles/deal_http.dir/clean
 .PHONY : CMakeFiles/deal_http.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/send_motor_command.dir
+
+# All Build rule for target.
+CMakeFiles/send_motor_command.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles --progress-num=5,6 "Built target send_motor_command"
+.PHONY : CMakeFiles/send_motor_command.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/send_motor_command.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/send_motor_command.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agvcore/HandWork/hand_ws/build/motor_control/CMakeFiles 0
+.PHONY : CMakeFiles/send_motor_command.dir/rule
+
+# Convenience name for target.
+send_motor_command: CMakeFiles/send_motor_command.dir/rule
+.PHONY : send_motor_command
+
+# clean rule for target.
+CMakeFiles/send_motor_command.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/clean
+.PHONY : CMakeFiles/send_motor_command.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

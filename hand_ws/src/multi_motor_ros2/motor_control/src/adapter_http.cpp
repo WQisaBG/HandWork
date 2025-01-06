@@ -1,10 +1,18 @@
+/**
+ * 1 该节点 从web端获取JSON格式的控制指令 
+ * 2 将其解析成ROS2中msg格式的数据类型
+ * 3 将填充的msg 发布到一个主题上
+ * 
+ */
+
+
 #include <iostream>
 #include <cstring> 
 #include <rclcpp/rclcpp.hpp>
 #include "httplib.h"
 #include <nlohmann/json.hpp>
-#include "motor_control_command_msgs/msg/motor_control_command.hpp" // 替换为您的消息头文件
-#include "motor_control_command_msgs/msg/motor.hpp" // 替换为 Motor 消息的头文件
+#include "motor_control_command_msgs/msg/motor_control_command.hpp" 
+#include "motor_control_command_msgs/msg/motor.hpp" // Motor 消息的头文件
 
 using json = nlohmann::json;
 
@@ -14,18 +22,18 @@ public:
         : Node("http_server_node") {
         
         // 创建 HTTP 服务器
-        server_.Post("/api/data", [this](const httplib::Request &req, httplib::Response &res) {
+        server_.Post("/motor/task", [this](const httplib::Request &req, httplib::Response &res) {
             handle_post(req, res);
         });
         
         // 启动 HTTP 服务器
         std::thread([this]() {
-            server_.listen("0.0.0.0", 8000); // 在8000端口上监听
+            server_.listen("127.0.0.1", 10088); // 在10088端口上监听
         }).detach();
         
         pub_ = this->create_publisher<motor_control_command_msgs::msg::MotorControlCommand>("motor_command", 10);
 
-        RCLCPP_INFO(this->get_logger(), "HTTP server running at http://0.0.0.0:8000/api/data");
+        RCLCPP_INFO(this->get_logger(), "HTTP server running at http://127.0.0.1:10088/motor/task");
     }
 
 private:
@@ -51,7 +59,7 @@ private:
                     
                     // 添加到 MotorCommand 消息的 motors 数组中
                     msg.motors.push_back(motor_msg);
-                }
+                }//  完成json数据的解析
 
                 // 发布到 ROS 话题
                 pub_->publish(msg);

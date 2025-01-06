@@ -38,6 +38,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/rosidl_cmake-extras.cmake"
   "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+  "/home/agvcore/HandWork/hand_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake"
+  "/home/agvcore/HandWork/hand_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake"
+  "/home/agvcore/HandWork/hand_ws/install/serial/share/serial/cmake/serialConfig-version.cmake"
+  "/home/agvcore/HandWork/hand_ws/install/serial/share/serial/cmake/serialConfig.cmake"
   "/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/CMakeLists.txt"
   "/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/package.xml"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config-version.cmake"
@@ -648,4 +652,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/motor_control_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/adapter_http.dir/DependInfo.cmake"
   "CMakeFiles/deal_http.dir/DependInfo.cmake"
+  "CMakeFiles/send_motor_command.dir/DependInfo.cmake"
   )
