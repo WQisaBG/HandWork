@@ -1,0 +1,8 @@
+[01m[K/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/src/adapter_http.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Khttplib.h: 没有那个文件或目录
+    2 | #include [01;31m[K"httplib.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/adapter_http.dir/build.make:76：CMakeFiles/adapter_http.dir/src/adapter_http.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/adapter_http.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

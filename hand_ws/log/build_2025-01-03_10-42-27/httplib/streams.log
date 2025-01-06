@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/httplib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/httplib
+[0.119s] -- The CXX compiler identification is GNU 13.2.0
+[0.142s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.558s] -- Found Threads: TRUE  
+[0.920s] -- Configuring done (0.9s)
+[0.920s] -- Generating done (0.0s)
+[0.920s] -- Build files have been written to: /home/agvcore/HandWork/hand_ws/build/httplib
+[0.946s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/httplib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/httplib
+[0.947s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/httplib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/httplib -- -j8 -l8
+[1.005s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/httplib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/httplib -- -j8 -l8
+[1.042s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/httplib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/httplib
+[1.054s] -- Install configuration: ""
+[1.054s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/include/httplib.h
+[1.055s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/lib/cmake/httplib/httplibConfig.cmake
+[1.055s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/lib/cmake/httplib/httplibConfigVersion.cmake
+[1.055s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/lib/cmake/httplib/FindBrotli.cmake
+[1.055s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/lib/cmake/httplib/httplibTargets.cmake
+[1.055s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/share/doc/httplib/README.md
+[1.056s] -- Installing: /home/agvcore/HandWork/hand_ws/install/httplib/share/licenses/httplib/LICENSE
+[1.058s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/httplib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/httplib

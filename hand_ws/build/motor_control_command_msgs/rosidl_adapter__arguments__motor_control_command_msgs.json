@@ -1,0 +1,7 @@
+{
+  "package_name": "motor_control_command_msgs",
+  "non_idl_tuples": [
+    "/home/agvcore/HandWork/hand_ws/src/internal_msgs/motor_control_command_msgs:msg/Motor.msg",
+    "/home/agvcore/HandWork/hand_ws/src/internal_msgs/motor_control_command_msgs:msg/MotorControlCommand.msg"
+  ]
+}

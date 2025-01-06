@@ -1,0 +1,6 @@
+Invoking command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/json -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/nlohmann_json
+Invoked command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/json -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/nlohmann_json
+Invoking command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/nlohmann_json -- -j8 -l8
+Invoked command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/nlohmann_json -- -j8 -l8
+Invoking command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/nlohmann_json
+Invoked command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/nlohmann_json

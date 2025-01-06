@@ -1,0 +1,51 @@
+[0.025s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/motor_control': AMENT_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/motor_control
+[0.182s] -- The C compiler identification is GNU 13.2.0
+[0.307s] -- The CXX compiler identification is GNU 13.2.0
+[0.353s] -- Detecting C compiler ABI info
+[0.584s] -- Detecting C compiler ABI info - done
+[0.593s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.618s] -- Detecting CXX compiler ABI info
+[0.799s] -- Detecting CXX compiler ABI info - done
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.812s] -- Detecting CXX compile features
+[0.815s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.420s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.526s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.562s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.772s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.779s] -- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.842s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.965s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.998s] -- Found motor_control_command_msgs: 0.0.0 (/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake)
+[2.178s] -- Configuring done (2.1s)
+[2.199s] -- Generating done (0.0s)
+[2.204s] -- Build files have been written to: /home/agvcore/HandWork/hand_ws/build/motor_control
+[2.225s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/motor_control' returned '0': AMENT_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/motor_control
+[2.228s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/motor_control': AMENT_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/motor_control -- -j8 -l8
+[2.343s] [ 50%] [32mBuilding CXX object CMakeFiles/deal_http.dir/src/deal_http.cpp.o[0m
+[2.343s] [ 50%] [32mBuilding CXX object CMakeFiles/adapter_http.dir/src/adapter_http.cpp.o[0m
+[2.879s] [01m[K/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/src/adapter_http.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Khttplib.h: 没有那个文件或目录
+[2.879s]     2 | #include [01;31m[K<httplib.h>[m[K
+[2.879s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.879s] compilation terminated.
+[2.883s] gmake[2]: *** [CMakeFiles/adapter_http.dir/build.make:76：CMakeFiles/adapter_http.dir/src/adapter_http.cpp.o] 错误 1
+[2.884s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/adapter_http.dir/all] 错误 2
+[2.884s] gmake[1]: *** 正在等待未完成的任务....
+[5.867s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.867s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[5.867s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[5.867s]                  from [01m[K/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/src/deal_http.cpp:1[m[K:
+[5.867s] [01m[K/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/src/deal_http.cpp:[m[K In member function ‘[01m[Kvoid MotorCommandSubscriber::[01;32m[Kon_message[m[K(motor_control_command_msgs::msg::MotorControlCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.868s] [01m[K/home/agvcore/HandWork/hand_ws/src/multi_motor_ros2/motor_control/src/deal_http.cpp:24:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct motor_control_command_msgs::msg::Motor_<std::allocator<void> >[m[K’ has no member named ‘[01m[KtargetPosition[m[K’; did you mean ‘[01m[Ktarget_position[m[K’?
+[5.868s]    24 |                         motor.index, motor.[01;31m[KtargetPosition[m[K);
+[5.868s]       |                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.305s] gmake[2]: *** [CMakeFiles/deal_http.dir/build.make:76：CMakeFiles/deal_http.dir/src/deal_http.cpp.o] 错误 1
+[9.305s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/deal_http.dir/all] 错误 2
+[9.305s] gmake: *** [Makefile:146：all] 错误 2
+[9.309s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/motor_control' returned '2': AMENT_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/motor_control -- -j8 -l8

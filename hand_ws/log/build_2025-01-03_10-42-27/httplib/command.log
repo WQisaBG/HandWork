@@ -1,0 +1,6 @@
+Invoking command in '/home/agvcore/HandWork/hand_ws/build/httplib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/httplib
+Invoked command in '/home/agvcore/HandWork/hand_ws/build/httplib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/httplib
+Invoking command in '/home/agvcore/HandWork/hand_ws/build/httplib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/httplib -- -j8 -l8
+Invoked command in '/home/agvcore/HandWork/hand_ws/build/httplib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/httplib -- -j8 -l8
+Invoking command in '/home/agvcore/HandWork/hand_ws/build/httplib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/httplib
+Invoked command in '/home/agvcore/HandWork/hand_ws/build/httplib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/httplib

@@ -1,0 +1,268 @@
+[0.014s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/internal_msgs/motor_control_command_msgs -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs
+[0.129s] -- The C compiler identification is GNU 13.2.0
+[0.202s] -- The CXX compiler identification is GNU 13.2.0
+[0.238s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.392s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.595s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.792s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.992s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.109s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.139s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.254s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.288s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.946s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.955s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.963s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.971s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.893s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.233s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.411s] -- Found PythonExtra: /usr/bin/python3  
+[3.976s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.018s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[4.024s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[4.045s] -- Configuring done (4.0s)
+[4.082s] -- Generating done (0.0s)
+[4.084s] -- Build files have been written to: /home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs
+[4.097s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/internal_msgs/motor_control_command_msgs -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs
+[4.098s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs -- -j8 -l8
+[4.169s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.181s] [  2%] Built target ament_cmake_python_copy_motor_control_command_msgs
+[4.472s] [  2%] Built target motor_control_command_msgs__rosidl_generator_type_description
+[4.488s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.491s] running egg_info
+[4.493s] creating motor_control_command_msgs.egg-info
+[4.504s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.520s] writing motor_control_command_msgs.egg-info/PKG-INFO
+[4.520s] writing dependency_links to motor_control_command_msgs.egg-info/dependency_links.txt
+[4.520s] writing top-level names to motor_control_command_msgs.egg-info/top_level.txt
+[4.520s] writing manifest file 'motor_control_command_msgs.egg-info/SOURCES.txt'
+[4.601s] reading manifest file 'motor_control_command_msgs.egg-info/SOURCES.txt'
+[4.601s] writing manifest file 'motor_control_command_msgs.egg-info/SOURCES.txt'
+[4.645s] [  6%] Built target ament_cmake_python_build_motor_control_command_msgs_egg
+[4.846s] [  6%] Built target motor_control_command_msgs__cpp
+[4.898s] [  9%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_c.dir/rosidl_generator_c/motor_control_command_msgs/msg/detail/motor__functions.c.o[0m
+[4.900s] [ 11%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_c.dir/rosidl_generator_c/motor_control_command_msgs/msg/detail/motor__description.c.o[0m
+[4.900s] [ 13%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_c.dir/rosidl_generator_c/motor_control_command_msgs/msg/detail/motor__type_support.c.o[0m
+[4.900s] [ 15%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_c.dir/rosidl_generator_c/motor_control_command_msgs/msg/detail/motor_control_command__functions.c.o[0m
+[4.900s] [ 18%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_c.dir/rosidl_generator_c/motor_control_command_msgs/msg/detail/motor_control_command__description.c.o[0m
+[4.904s] [ 20%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_c.dir/rosidl_generator_c/motor_control_command_msgs/msg/detail/motor_control_command__type_support.c.o[0m
+[4.977s] [ 22%] [32m[1mLinking C shared library libmotor_control_command_msgs__rosidl_generator_c.so[0m
+[5.039s] [ 22%] Built target motor_control_command_msgs__rosidl_generator_c
+[5.060s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.061s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.061s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.062s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.062s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.062s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.561s] [ 40%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_command_msgs/msg/motor_control_command__type_support.cpp.o[0m
+[5.561s] [ 40%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_command_msgs/msg/motor__type_support.cpp.o[0m
+[5.579s] [ 43%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_control_command_msgs/msg/detail/motor__type_support.cpp.o[0m
+[5.594s] [ 45%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_control_command_msgs/msg/detail/motor_control_command__type_support.cpp.o[0m
+[5.615s] [ 47%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_control_command_msgs/msg/detail/motor__type_support.c.o[0m
+[5.620s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_control_command_msgs/msg/motor__type_support.cpp.o[0m
+[5.667s] [ 52%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_control_command_msgs/msg/detail/motor_control_command__type_support.c.o[0m
+[5.668s] [ 54%] [32m[1mLinking CXX shared library libmotor_control_command_msgs__rosidl_typesupport_c.so[0m
+[5.668s] [ 56%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_control_command_msgs/msg/detail/motor__type_support_c.cpp.o[0m
+[5.678s] [ 59%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_control_command_msgs/msg/detail/dds_fastrtps/motor__type_support.cpp.o[0m
+[5.696s] [ 61%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_control_command_msgs/msg/detail/motor_control_command__type_support_c.cpp.o[0m
+[5.759s] [ 63%] [32m[1mLinking C shared library libmotor_control_command_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.772s] [ 63%] Built target motor_control_command_msgs__rosidl_typesupport_c
+[5.792s] [ 65%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_control_command_msgs/msg/detail/dds_fastrtps/motor_control_command__type_support.cpp.o[0m
+[5.862s] [ 65%] Built target motor_control_command_msgs__rosidl_typesupport_introspection_c
+[5.913s] [ 68%] [32mBuilding CXX object CMakeFiles/motor_control_command_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_control_command_msgs/msg/motor_control_command__type_support.cpp.o[0m
+[6.260s] [ 70%] [32m[1mLinking CXX shared library libmotor_control_command_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.629s] [ 70%] Built target motor_control_command_msgs__rosidl_typesupport_introspection_cpp
+[6.793s] [ 72%] [32m[1mLinking CXX shared library libmotor_control_command_msgs__rosidl_typesupport_cpp.so[0m
+[6.919s] [ 72%] Built target motor_control_command_msgs__rosidl_typesupport_cpp
+[6.932s] [ 75%] [32m[1mLinking CXX shared library libmotor_control_command_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.100s] [ 75%] Built target motor_control_command_msgs__rosidl_typesupport_fastrtps_c
+[7.151s] [ 77%] [32m[1mLinking CXX shared library libmotor_control_command_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.305s] [ 77%] Built target motor_control_command_msgs__rosidl_typesupport_fastrtps_cpp
+[7.354s] [ 77%] Built target motor_control_command_msgs
+[7.394s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.045s] [ 79%] Built target motor_control_command_msgs__py
+[8.087s] [ 81%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_py.dir/rosidl_generator_py/motor_control_command_msgs/msg/_motor_control_command_s.c.o[0m
+[8.087s] [ 84%] [32mBuilding C object CMakeFiles/motor_control_command_msgs__rosidl_generator_py.dir/rosidl_generator_py/motor_control_command_msgs/msg/_motor_s.c.o[0m
+[8.485s] [ 86%] [32m[1mLinking C shared library libmotor_control_command_msgs__rosidl_generator_py.so[0m
+[8.581s] [ 86%] Built target motor_control_command_msgs__rosidl_generator_py
+[8.646s] [ 90%] [32mBuilding C object CMakeFiles/motor_control_command_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/motor_control_command_msgs/_motor_control_command_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.647s] [ 90%] [32mBuilding C object CMakeFiles/motor_control_command_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_control_command_msgs/_motor_control_command_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.657s] [ 93%] [32mBuilding C object CMakeFiles/motor_control_command_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motor_control_command_msgs/_motor_control_command_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.909s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_c.so[0m
+[8.925s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[8.931s] [100%] [32m[1mLinking C shared module rosidl_generator_py/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.989s] [100%] Built target motor_control_command_msgs_s__rosidl_typesupport_c
+[9.002s] [100%] Built target motor_control_command_msgs_s__rosidl_typesupport_introspection_c
+[9.011s] [100%] Built target motor_control_command_msgs_s__rosidl_typesupport_fastrtps_c
+[9.045s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs -- -j8 -l8
+[9.297s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs
+[9.317s] -- Install configuration: ""
+[9.317s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/ament_index/resource_index/rosidl_interfaces/motor_control_command_msgs
+[9.318s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/msg/Motor.json
+[9.319s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/msg/MotorControlCommand.json
+[9.319s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs
+[9.319s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg
+[9.320s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/motor.h
+[9.320s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.320s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail
+[9.320s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__type_support.h
+[9.321s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__description.c
+[9.321s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__functions.c
+[9.321s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__struct.h
+[9.321s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__type_support.h
+[9.322s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__struct.h
+[9.322s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__functions.c
+[9.322s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__description.c
+[9.323s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__type_support.c
+[9.323s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__functions.h
+[9.323s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__functions.h
+[9.324s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__type_support.c
+[9.324s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/motor_control_command.h
+[9.324s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/library_path.sh
+[9.324s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/library_path.dsv
+[9.325s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_generator_c.so
+[9.326s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_generator_c.so" to ""
+[9.326s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs
+[9.326s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg
+[9.326s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail
+[9.327s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__rosidl_typesupport_fastrtps_c.h
+[9.327s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__rosidl_typesupport_fastrtps_c.h
+[9.327s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.327s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_fastrtps_c.so
+[9.328s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.330s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs
+[9.330s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg
+[9.331s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/motor.hpp
+[9.331s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail
+[9.331s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__traits.hpp
+[9.331s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__builder.hpp
+[9.331s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__struct.hpp
+[9.332s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__builder.hpp
+[9.332s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__type_support.hpp
+[9.332s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__struct.hpp
+[9.332s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__traits.hpp
+[9.333s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__type_support.hpp
+[9.333s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.333s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/motor_control_command.hpp
+[9.333s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs
+[9.334s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg
+[9.334s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail
+[9.334s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.335s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/dds_fastrtps
+[9.335s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp
+[9.336s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.337s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.337s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.337s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs
+[9.337s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg
+[9.338s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.338s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail
+[9.340s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__rosidl_typesupport_introspection_c.h
+[9.340s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__rosidl_typesupport_introspection_c.h
+[9.341s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__type_support.c
+[9.341s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__type_support.c
+[9.341s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_introspection_c.so
+[9.341s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.342s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_c.so
+[9.342s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_c.so" to ""
+[9.342s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs
+[9.342s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg
+[9.343s] -- Up-to-date: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail
+[9.343s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__type_support.cpp
+[9.343s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__type_support.cpp
+[9.343s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor_control_command__rosidl_typesupport_introspection_cpp.hpp
+[9.343s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/include/motor_control_command_msgs/motor_control_command_msgs/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp
+[9.344s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_introspection_cpp.so
+[9.344s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.344s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_cpp.so
+[9.345s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_typesupport_cpp.so" to ""
+[9.345s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/pythonpath.sh
+[9.345s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/pythonpath.dsv
+[9.346s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs-0.0.0-py3.12.egg-info
+[9.347s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.348s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[9.348s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.349s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[9.349s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs
+[9.350s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_c.so
+[9.350s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/__init__.py
+[9.350s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/_motor_control_command_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.350s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.351s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/_motor_control_command_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.351s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_introspection_c.so
+[9.351s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/_motor_control_command_msgs_s.ep.rosidl_typesupport_c.c
+[9.351s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg
+[9.351s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/_motor_control_command.py
+[9.351s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/_motor_control_command_s.c
+[9.352s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/__init__.py
+[9.352s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/_motor_s.c
+[9.352s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/_motor.py
+[9.434s] Listing '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs'...
+[9.434s] Compiling '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/__init__.py'...
+[9.435s] Listing '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg'...
+[9.435s] Compiling '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/__init__.py'...
+[9.435s] Compiling '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/_motor.py'...
+[9.435s] Compiling '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/msg/_motor_control_command.py'...
+[9.443s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.444s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.445s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_introspection_c.so
+[9.447s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[9.448s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_c.so
+[9.450s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages/motor_control_command_msgs/motor_control_command_msgs_s__rosidl_typesupport_c.so" to ""
+[9.450s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_generator_py.so
+[9.452s] -- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/libmotor_control_command_msgs__rosidl_generator_py.so" to ""
+[9.453s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/msg/Motor.idl
+[9.454s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/msg/MotorControlCommand.idl
+[9.456s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/msg/Motor.msg
+[9.456s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/msg/MotorControlCommand.msg
+[9.456s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/ament_index/resource_index/package_run_dependencies/motor_control_command_msgs
+[9.456s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/ament_index/resource_index/parent_prefix_path/motor_control_command_msgs
+[9.456s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/ament_prefix_path.sh
+[9.457s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/ament_prefix_path.dsv
+[9.457s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/path.sh
+[9.458s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/environment/path.dsv
+[9.458s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/local_setup.bash
+[9.459s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/local_setup.sh
+[9.459s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/local_setup.zsh
+[9.459s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/local_setup.dsv
+[9.460s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/package.dsv
+[9.460s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/ament_index/resource_index/packages/motor_control_command_msgs
+[9.460s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_generator_cExport.cmake
+[9.461s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.461s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.461s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.461s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_generator_cppExport.cmake
+[9.462s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.462s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.462s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.462s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.462s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_cExport.cmake
+[9.463s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.463s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.463s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.463s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_cppExport.cmake
+[9.464s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.464s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_generator_pyExport.cmake
+[9.464s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/export_motor_control_command_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.464s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/rosidl_cmake-extras.cmake
+[9.465s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.465s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.465s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.466s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.466s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.466s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.466s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgsConfig.cmake
+[9.467s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake/motor_control_command_msgsConfig-version.cmake
+[9.468s] -- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/package.xml
+[9.475s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs

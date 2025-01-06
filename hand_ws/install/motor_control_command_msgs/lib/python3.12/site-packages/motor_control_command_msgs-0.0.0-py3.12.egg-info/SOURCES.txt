@@ -1,0 +1,9 @@
+setup.py
+motor_control_command_msgs/__init__.py
+motor_control_command_msgs.egg-info/PKG-INFO
+motor_control_command_msgs.egg-info/SOURCES.txt
+motor_control_command_msgs.egg-info/dependency_links.txt
+motor_control_command_msgs.egg-info/top_level.txt
+motor_control_command_msgs/msg/__init__.py
+motor_control_command_msgs/msg/_motor.py
+motor_control_command_msgs/msg/_motor_control_command.py

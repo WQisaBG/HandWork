@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (-) JobUnselected: {'identifier': 'httplib'}
+[0.000327] (-) JobUnselected: {'identifier': 'motor_control_command_msgs'}
+[0.000393] (-) JobUnselected: {'identifier': 'nlohmann_json'}
+[0.000423] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict({'motor_control_command_msgs': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs'})}
+[0.000474] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.021554] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'cmake'}
+[0.023239] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'build'}
+[0.023353] (motor_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agvcore/HandWork/hand_ws/build/motor_control', '--', '-j8', '-l8'], 'cwd': '/home/agvcore/HandWork/hand_ws/build/motor_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'agvcore', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agvcore', 'OLDPWD': '/home/agvcore/HandWork/hand_ws/src/thirdparty/cpp-httplib', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'SYSTEMD_EXEC_PID': '3074', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7890/', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'agvcore', 'http_proxy': 'http://127.0.0.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agvcore', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/agvcore/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/agvcore/.local/share/pnpm:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/agvcoreAB:@/tmp/.ICE-unix/2877,unix/agvcoreAB:/tmp/.ICE-unix/2877', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c91fd85_91f2_4cca_b1e2_490f42bf1575', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/agvcore/HandWork/hand_ws/build/motor_control', 'QT_QPA_PLATFORM': 'xcb', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7890/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'PNPM_HOME': '/home/agvcore/.local/share/pnpm', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.056763] (motor_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099185] (-) TimerEvent: {}
+[0.199721] (-) TimerEvent: {}
+[0.270653] (motor_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.293603] (motor_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.299993] (-) TimerEvent: {}
+[0.304220] (motor_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.315144] (motor_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.327371] (motor_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.371847] (motor_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.372983] (motor_control) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.389523] (motor_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.400420] (-) TimerEvent: {}
+[0.436508] (motor_control) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.446239] (motor_control) StdoutLine: {'line': b'-- Found motor_control_command_msgs: 0.0.0 (/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/share/motor_control_command_msgs/cmake)\n'}
+[0.500950] (-) TimerEvent: {}
+[0.539516] (motor_control) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.553932] (motor_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.555852] (motor_control) StdoutLine: {'line': b'-- Build files have been written to: /home/agvcore/HandWork/hand_ws/build/motor_control\n'}
+[0.599284] (motor_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/adapter_http.dir/src/adapter_http.cpp.o\x1b[0m\n'}
+[0.601265] (-) TimerEvent: {}
+[0.613216] (motor_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/deal_http.dir/src/deal_http.cpp.o\x1b[0m\n'}
+[0.701647] (-) TimerEvent: {}
+[0.802576] (-) TimerEvent: {}
+[0.903544] (-) TimerEvent: {}
+[1.004748] (-) TimerEvent: {}
+[1.105581] (-) TimerEvent: {}
+[1.207124] (-) TimerEvent: {}
+[1.308417] (-) TimerEvent: {}
+[1.409735] (-) TimerEvent: {}
+[1.510197] (-) TimerEvent: {}
+[1.611565] (-) TimerEvent: {}
+[1.712798] (-) TimerEvent: {}
+[1.814157] (-) TimerEvent: {}
+[1.915382] (-) TimerEvent: {}
+[2.016707] (-) TimerEvent: {}
+[2.117215] (-) TimerEvent: {}
+[2.217960] (-) TimerEvent: {}
+[2.319404] (-) TimerEvent: {}
+[2.420657] (-) TimerEvent: {}
+[2.521180] (-) TimerEvent: {}
+[2.622365] (-) TimerEvent: {}
+[2.723424] (-) TimerEvent: {}
+[2.824759] (-) TimerEvent: {}
+[2.926046] (-) TimerEvent: {}
+[3.027365] (-) TimerEvent: {}
+[3.128860] (-) TimerEvent: {}
+[3.229963] (-) TimerEvent: {}
+[3.331337] (-) TimerEvent: {}
+[3.432198] (-) TimerEvent: {}
+[3.533257] (-) TimerEvent: {}
+[3.634345] (-) TimerEvent: {}
+[3.735555] (-) TimerEvent: {}
+[3.836591] (-) TimerEvent: {}
+[3.937538] (-) TimerEvent: {}
+[4.038066] (-) TimerEvent: {}
+[4.139170] (-) TimerEvent: {}
+[4.240141] (-) TimerEvent: {}
+[4.341342] (-) TimerEvent: {}
+[4.441749] (-) TimerEvent: {}
+[4.542204] (-) TimerEvent: {}
+[4.642837] (-) TimerEvent: {}
+[4.743417] (-) TimerEvent: {}
+[4.844350] (-) TimerEvent: {}
+[4.945436] (-) TimerEvent: {}
+[5.046059] (-) TimerEvent: {}
+[5.146947] (-) TimerEvent: {}
+[5.248941] (-) TimerEvent: {}
+[5.349721] (-) TimerEvent: {}
+[5.450658] (-) TimerEvent: {}
+[5.551473] (-) TimerEvent: {}
+[5.652415] (-) TimerEvent: {}
+[5.754106] (-) TimerEvent: {}
+[5.854776] (-) TimerEvent: {}
+[5.955313] (-) TimerEvent: {}
+[6.056411] (-) TimerEvent: {}
+[6.157112] (-) TimerEvent: {}
+[6.258027] (-) TimerEvent: {}
+[6.358712] (-) TimerEvent: {}
+[6.459215] (-) TimerEvent: {}
+[6.559829] (-) TimerEvent: {}
+[6.660981] (-) TimerEvent: {}
+[6.761612] (-) TimerEvent: {}
+[6.862321] (-) TimerEvent: {}
+[6.962849] (-) TimerEvent: {}
+[7.064101] (-) TimerEvent: {}
+[7.164689] (-) TimerEvent: {}
+[7.265320] (-) TimerEvent: {}
+[7.366320] (-) TimerEvent: {}
+[7.467207] (-) TimerEvent: {}
+[7.567967] (-) TimerEvent: {}
+[7.669071] (-) TimerEvent: {}
+[7.769967] (-) TimerEvent: {}
+[7.870438] (-) TimerEvent: {}
+[7.971331] (-) TimerEvent: {}
+[8.072414] (-) TimerEvent: {}
+[8.173073] (-) TimerEvent: {}
+[8.273665] (-) TimerEvent: {}
+[8.374310] (-) TimerEvent: {}
+[8.475246] (-) TimerEvent: {}
+[8.575720] (-) TimerEvent: {}
+[8.676204] (-) TimerEvent: {}
+[8.776851] (-) TimerEvent: {}
+[8.877432] (-) TimerEvent: {}
+[8.978155] (-) TimerEvent: {}
+[9.079280] (-) TimerEvent: {}
+[9.179963] (-) TimerEvent: {}
+[9.280981] (-) TimerEvent: {}
+[9.381708] (-) TimerEvent: {}
+[9.482268] (-) TimerEvent: {}
+[9.583250] (-) TimerEvent: {}
+[9.684473] (-) TimerEvent: {}
+[9.785182] (-) TimerEvent: {}
+[9.885768] (-) TimerEvent: {}
+[9.987275] (-) TimerEvent: {}
+[10.088846] (-) TimerEvent: {}
+[10.106087] (motor_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable deal_http\x1b[0m\n'}
+[10.189681] (-) TimerEvent: {}
+[10.290599] (-) TimerEvent: {}
+[10.391818] (-) TimerEvent: {}
+[10.493037] (-) TimerEvent: {}
+[10.542961] (motor_control) StdoutLine: {'line': b'[ 75%] Built target deal_http\n'}
+[10.593376] (-) TimerEvent: {}
+[10.693882] (-) TimerEvent: {}
+[10.794611] (-) TimerEvent: {}
+[10.895241] (-) TimerEvent: {}
+[10.996257] (-) TimerEvent: {}
+[11.097239] (-) TimerEvent: {}
+[11.198410] (-) TimerEvent: {}
+[11.299436] (-) TimerEvent: {}
+[11.400483] (-) TimerEvent: {}
+[11.500981] (-) TimerEvent: {}
+[11.602116] (-) TimerEvent: {}
+[11.702957] (-) TimerEvent: {}
+[11.803695] (-) TimerEvent: {}
+[11.904396] (-) TimerEvent: {}
+[12.004726] (-) TimerEvent: {}
+[12.105430] (-) TimerEvent: {}
+[12.206427] (-) TimerEvent: {}
+[12.307232] (-) TimerEvent: {}
+[12.407730] (-) TimerEvent: {}
+[12.508206] (-) TimerEvent: {}
+[12.609039] (-) TimerEvent: {}
+[12.710077] (-) TimerEvent: {}
+[12.811017] (-) TimerEvent: {}
+[12.911703] (-) TimerEvent: {}
+[13.012175] (-) TimerEvent: {}
+[13.113341] (-) TimerEvent: {}
+[13.215435] (-) TimerEvent: {}
+[13.316175] (-) TimerEvent: {}
+[13.416946] (-) TimerEvent: {}
+[13.517619] (-) TimerEvent: {}
+[13.618714] (-) TimerEvent: {}
+[13.719608] (-) TimerEvent: {}
+[13.731595] (motor_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable adapter_http\x1b[0m\n'}
+[13.820299] (-) TimerEvent: {}
+[13.921518] (-) TimerEvent: {}
+[14.022174] (-) TimerEvent: {}
+[14.122729] (-) TimerEvent: {}
+[14.171247] (motor_control) StdoutLine: {'line': b'[100%] Built target adapter_http\n'}
+[14.191793] (motor_control) CommandEnded: {'returncode': 0}
+[14.223376] (-) TimerEvent: {}
+[14.246395] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'install'}
+[14.261812] (motor_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agvcore/HandWork/hand_ws/build/motor_control'], 'cwd': '/home/agvcore/HandWork/hand_ws/build/motor_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'agvcore', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agvcore', 'OLDPWD': '/home/agvcore/HandWork/hand_ws/src/thirdparty/cpp-httplib', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'SYSTEMD_EXEC_PID': '3074', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7890/', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'agvcore', 'http_proxy': 'http://127.0.0.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agvcore', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/agvcore/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/agvcore/.local/share/pnpm:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/agvcoreAB:@/tmp/.ICE-unix/2877,unix/agvcoreAB:/tmp/.ICE-unix/2877', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c91fd85_91f2_4cca_b1e2_490f42bf1575', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/agvcore/HandWork/hand_ws/build/motor_control', 'QT_QPA_PLATFORM': 'xcb', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:7890/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'PNPM_HOME': '/home/agvcore/.local/share/pnpm', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agvcore/HandWork/hand_ws/install/motor_control_command_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.274574] (motor_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.274993] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/adapter_http\n'}
+[14.280317] (motor_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/adapter_http" to ""\n'}
+[14.280507] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/deal_http\n'}
+[14.285934] (motor_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/deal_http" to ""\n'}
+[14.286178] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control\n'}
+[14.286393] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control\n'}
+[14.286579] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.sh\n'}
+[14.286713] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv\n'}
+[14.286914] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/environment/path.sh\n'}
+[14.287021] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/environment/path.dsv\n'}
+[14.287339] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/local_setup.bash\n'}
+[14.287515] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/local_setup.sh\n'}
+[14.287794] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/local_setup.zsh\n'}
+[14.287923] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/local_setup.dsv\n'}
+[14.288031] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/package.dsv\n'}
+[14.288347] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/ament_index/resource_index/packages/motor_control\n'}
+[14.288634] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake\n'}
+[14.288951] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake\n'}
+[14.289100] (motor_control) StdoutLine: {'line': b'-- Installing: /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/package.xml\n'}
+[14.291049] (motor_control) CommandEnded: {'returncode': 0}
+[14.323875] (-) TimerEvent: {}
+[14.365572] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[14.367293] (-) EventReactorShutdown: {}

@@ -1,0 +1,437 @@
+[0.030s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/json -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/nlohmann_json
+[0.118s] -- The CXX compiler identification is GNU 13.2.0
+[0.140s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.376s] -- Using the multi-header code from /home/agvcore/HandWork/hand_ws/src/thirdparty/json/include/
+[0.411s] -- Found Git: /usr/bin/git (found version "2.43.0") 
+[0.440s] -- Operating system: Linux-6.8.0-45-generic; Distributor ID:	Ubuntu; Description:	Ubuntu 24.04 LTS; Release:	24.04; Codename:	noble; Linux agvcoreAB 6.8.0-45-generic #45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+[0.447s] -- Compiler: c++ (Ubuntu 13.2.0-23ubuntu4) 13.2.0; Copyright (C) 2023 Free Software Foundation, Inc.; This is free software; see the source for copying conditions.  There is NO; warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+[0.447s] -- Testing standards: 11 14 17 20 23
+[0.448s] -- Looking for C++ include sys/types.h
+[0.586s] -- Looking for C++ include sys/types.h - found
+[0.587s] -- Looking for C++ include stdint.h
+[0.716s] -- Looking for C++ include stdint.h - found
+[0.716s] -- Looking for C++ include stddef.h
+[0.857s] -- Looking for C++ include stddef.h - found
+[0.857s] -- Check size of size_t
+[1.002s] -- Check size of size_t - done
+[1.036s] -- Configuring done (1.0s)
+[1.187s] -- Generating done (0.1s)
+[1.198s] -- Build files have been written to: /home/agvcore/HandWork/hand_ws/build/nlohmann_json
+[1.205s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/agvcore/HandWork/hand_ws/src/thirdparty/json -DCMAKE_INSTALL_PREFIX=/home/agvcore/HandWork/hand_ws/install/nlohmann_json
+[1.207s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/nlohmann_json -- -j8 -l8
+[1.306s] [  1%] [32mBuilding CXX object tests/CMakeFiles/test_main.dir/src/unit.cpp.o[0m
+[1.320s] [  1%] [32mBuilding CXX object tests/abi/CMakeFiles/abi_compat_main.dir/main.cpp.o[0m
+[1.324s] [  1%] [32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag_on.dir/diag_on.cpp.o[0m
+[1.332s] [  1%] [32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag_off.dir/diag_off.cpp.o[0m
+[4.915s] [  2%] [32m[1mLinking CXX static library libabi_compat_diag_off.a[0m
+[5.168s] [  3%] [32m[1mLinking CXX static library libabi_compat_diag_on.a[0m
+[5.292s] [  3%] Built target abi_compat_diag_off
+[5.347s] [  3%] Built target test_main
+[5.406s] [  3%] Built target abi_compat_diag_on
+[5.446s] [  4%] [32mBuilding CXX object tests/CMakeFiles/test-allocator_cpp11.dir/src/unit-allocator.cpp.o[0m
+[5.485s] [  4%] [32mBuilding CXX object tests/CMakeFiles/test-alt-string_cpp11.dir/src/unit-alt-string.cpp.o[0m
+[5.486s] [  5%] [32mBuilding CXX object tests/CMakeFiles/test-binary_formats_cpp11.dir/src/unit-binary_formats.cpp.o[0m
+[5.486s] [  5%] [32mBuilding CXX object tests/CMakeFiles/test-assert_macro_cpp11.dir/src/unit-assert_macro.cpp.o[0m
+[5.487s] [  5%] [32mBuilding CXX object tests/CMakeFiles/test-algorithms_cpp11.dir/src/unit-algorithms.cpp.o[0m
+[5.507s] [  6%] [32mBuilding CXX object tests/CMakeFiles/test-bjdata_cpp11.dir/src/unit-bjdata.cpp.o[0m
+[5.521s] [  7%] [32mBuilding CXX object tests/CMakeFiles/test-bson_cpp11.dir/src/unit-bson.cpp.o[0m
+[5.988s] [  8%] [32m[1mLinking CXX static library libabi_compat_main.a[0m
+[6.578s] [  8%] Built target abi_compat_main
+[6.921s] [  9%] [32mBuilding CXX object tests/CMakeFiles/test-byte_container_with_subtype_cpp11.dir/src/unit-byte_container_with_subtype.cpp.o[0m
+[8.159s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-bjdata.cpp:21[m[K:
+[8.159s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[8.160s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[8.161s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[8.161s]       |                                                            [01;35m[K^[m[K
+[8.251s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-binary_formats.cpp:15[m[K:
+[8.251s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[8.252s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[8.252s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[8.252s]       |                                                            [01;35m[K^[m[K
+[8.692s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-bson.cpp:17[m[K:
+[8.692s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[8.692s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[8.692s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[8.693s]       |                                                            [01;35m[K^[m[K
+[10.580s] [ 10%] [32m[1mLinking CXX executable test-byte_container_with_subtype_cpp11[0m
+[10.654s] [ 11%] [32m[1mLinking CXX executable test-assert_macro_cpp11[0m
+[10.976s] [ 11%] Built target test-byte_container_with_subtype_cpp11
+[11.166s] [ 11%] [32mBuilding CXX object tests/CMakeFiles/test-capacity_cpp11.dir/src/unit-capacity.cpp.o[0m
+[11.167s] [ 11%] Built target test-assert_macro_cpp11
+[11.280s] [ 11%] [32mBuilding CXX object tests/CMakeFiles/test-cbor_cpp11.dir/src/unit-cbor.cpp.o[0m
+[13.545s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-cbor.cpp:20[m[K:
+[13.547s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[13.547s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[13.548s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[13.548s]       |                                                            [01;35m[K^[m[K
+[14.475s] [ 12%] [32m[1mLinking CXX executable test-allocator_cpp11[0m
+[14.660s] [ 13%] [32m[1mLinking CXX executable test-binary_formats_cpp11[0m
+[14.720s] [ 13%] [32m[1mLinking CXX executable test-algorithms_cpp11[0m
+[14.998s] [ 13%] Built target test-allocator_cpp11
+[15.129s] [ 14%] [32mBuilding CXX object tests/CMakeFiles/test-class_const_iterator_cpp11.dir/src/unit-class_const_iterator.cpp.o[0m
+[15.240s] [ 14%] Built target test-algorithms_cpp11
+[15.259s] [ 14%] Built target test-binary_formats_cpp11
+[15.305s] [ 15%] [32mBuilding CXX object tests/CMakeFiles/test-class_iterator_cpp11.dir/src/unit-class_iterator.cpp.o[0m
+[15.400s] [ 16%] [32mBuilding CXX object tests/CMakeFiles/test-class_lexer_cpp11.dir/src/unit-class_lexer.cpp.o[0m
+[16.624s] [ 17%] [32m[1mLinking CXX executable test-alt-string_cpp11[0m
+[17.155s] [ 17%] Built target test-alt-string_cpp11
+[17.300s] [ 17%] [32mBuilding CXX object tests/CMakeFiles/test-class_parser_cpp11.dir/src/unit-class_parser.cpp.o[0m
+[17.366s] [ 18%] [32m[1mLinking CXX executable test-capacity_cpp11[0m
+[17.671s] [ 18%] Built target test-capacity_cpp11
+[17.778s] [ 18%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_cpp11.dir/src/unit-comparison.cpp.o[0m
+[19.284s] [ 19%] [32m[1mLinking CXX executable test-class_lexer_cpp11[0m
+[19.620s] [ 19%] Built target test-class_lexer_cpp11
+[19.760s] [ 19%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_cpp20.dir/src/unit-comparison.cpp.o[0m
+[21.482s] [ 19%] [32m[1mLinking CXX executable test-class_const_iterator_cpp11[0m
+[22.028s] [ 19%] [32m[1mLinking CXX executable test-class_iterator_cpp11[0m
+[22.034s] [ 19%] Built target test-class_const_iterator_cpp11
+[22.122s] [ 20%] [32mBuilding CXX object tests/CMakeFiles/test-concepts_cpp11.dir/src/unit-concepts.cpp.o[0m
+[22.419s] [ 20%] Built target test-class_iterator_cpp11
+[22.587s] [ 20%] [32mBuilding CXX object tests/CMakeFiles/test-constructor1_cpp11.dir/src/unit-constructor1.cpp.o[0m
+[25.373s] [ 21%] [32m[1mLinking CXX executable test-comparison_cpp11[0m
+[25.588s] [ 21%] [32m[1mLinking CXX executable test-bson_cpp11[0m
+[25.977s] [ 21%] Built target test-comparison_cpp11
+[26.067s] [ 21%] [32mBuilding CXX object tests/CMakeFiles/test-constructor2_cpp11.dir/src/unit-constructor2.cpp.o[0m
+[26.302s] [ 21%] Built target test-bson_cpp11
+[26.368s] [ 22%] [32mBuilding CXX object tests/CMakeFiles/test-convenience_cpp11.dir/src/unit-convenience.cpp.o[0m
+[27.257s] [ 23%] [32m[1mLinking CXX executable test-concepts_cpp11[0m
+[27.634s] [ 23%] Built target test-concepts_cpp11
+[27.768s] [ 24%] [32mBuilding CXX object tests/CMakeFiles/test-conversions_cpp11.dir/src/unit-conversions.cpp.o[0m
+[30.892s] [ 24%] [32m[1mLinking CXX executable test-convenience_cpp11[0m
+[31.329s] [ 24%] Built target test-convenience_cpp11
+[31.426s] [ 25%] [32mBuilding CXX object tests/CMakeFiles/test-conversions_cpp17.dir/src/unit-conversions.cpp.o[0m
+[31.718s] [ 26%] [32m[1mLinking CXX executable test-comparison_cpp20[0m
+[32.250s] [ 26%] Built target test-comparison_cpp20
+[32.382s] [ 27%] [32m[1mLinking CXX executable test-constructor2_cpp11[0m
+[32.439s] [ 27%] [32mBuilding CXX object tests/CMakeFiles/test-custom-base-class_cpp11.dir/src/unit-custom-base-class.cpp.o[0m
+[33.030s] [ 27%] Built target test-constructor2_cpp11
+[33.137s] [ 27%] [32mBuilding CXX object tests/CMakeFiles/test-deserialization_cpp11.dir/src/unit-deserialization.cpp.o[0m
+[33.631s] [ 27%] [32m[1mLinking CXX executable test-bjdata_cpp11[0m
+[34.188s] [ 27%] Built target test-bjdata_cpp11
+[34.273s] [ 28%] [32mBuilding CXX object tests/CMakeFiles/test-diagnostics_cpp11.dir/src/unit-diagnostics.cpp.o[0m
+[36.682s] [ 29%] [32m[1mLinking CXX executable test-cbor_cpp11[0m
+[37.299s] [ 29%] Built target test-cbor_cpp11
+[37.365s] [ 30%] [32mBuilding CXX object tests/CMakeFiles/test-disabled_exceptions_cpp11.dir/src/unit-disabled_exceptions.cpp.o[0m
+[37.735s] [ 31%] [32m[1mLinking CXX executable test-class_parser_cpp11[0m
+[38.265s] [ 31%] Built target test-class_parser_cpp11
+[38.338s] [ 32%] [32mBuilding CXX object tests/CMakeFiles/test-element_access1_cpp11.dir/src/unit-element_access1.cpp.o[0m
+[41.635s] [ 33%] [32m[1mLinking CXX executable test-constructor1_cpp11[0m
+[42.118s] [ 33%] Built target test-constructor1_cpp11
+[42.185s] [ 34%] [32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp11.dir/src/unit-element_access2.cpp.o[0m
+[43.622s] [ 34%] [32m[1mLinking CXX executable test-diagnostics_cpp11[0m
+[43.693s] [ 34%] [32m[1mLinking CXX executable test-disabled_exceptions_cpp11[0m
+[44.211s] [ 34%] Built target test-diagnostics_cpp11
+[44.281s] [ 34%] Built target test-disabled_exceptions_cpp11
+[44.350s] [ 34%] [32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp14.dir/src/unit-element_access2.cpp.o[0m
+[44.373s] [ 34%] [32mBuilding CXX object tests/CMakeFiles/test-element_access2_cpp17.dir/src/unit-element_access2.cpp.o[0m
+[45.028s] [ 35%] [32m[1mLinking CXX executable test-custom-base-class_cpp11[0m
+[45.544s] [ 35%] Built target test-custom-base-class_cpp11
+[45.611s] [ 36%] [32mBuilding CXX object tests/CMakeFiles/test-hash_cpp11.dir/src/unit-hash.cpp.o[0m
+[46.699s] [ 36%] [32m[1mLinking CXX executable test-element_access1_cpp11[0m
+[47.121s] [ 36%] Built target test-element_access1_cpp11
+[47.213s] [ 37%] [32mBuilding CXX object tests/CMakeFiles/test-inspection_cpp11.dir/src/unit-inspection.cpp.o[0m
+[49.472s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-inspection.cpp:16[m[K:
+[49.476s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[49.477s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[49.477s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[49.477s]       |                                                            [01;35m[K^[m[K
+[54.231s] [ 37%] [32m[1mLinking CXX executable test-hash_cpp11[0m
+[54.648s] [ 37%] Built target test-hash_cpp11
+[54.769s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/test-items_cpp11.dir/src/unit-items.cpp.o[0m
+[58.604s] [ 38%] [32m[1mLinking CXX executable test-conversions_cpp11[0m
+[59.648s] [ 38%] Built target test-conversions_cpp11
+[59.738s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/test-items_cpp17.dir/src/unit-items.cpp.o[0m
+[59.996s] [ 38%] [32m[1mLinking CXX executable test-inspection_cpp11[0m
+[60.490s] [ 38%] Built target test-inspection_cpp11
+[60.572s] [ 38%] [32mBuilding CXX object tests/CMakeFiles/test-iterators1_cpp11.dir/src/unit-iterators1.cpp.o[0m
+[64.049s] [ 39%] [32m[1mLinking CXX executable test-items_cpp11[0m
+[64.406s] [ 39%] Built target test-items_cpp11
+[64.536s] [ 40%] [32mBuilding CXX object tests/CMakeFiles/test-iterators2_cpp11.dir/src/unit-iterators2.cpp.o[0m
+[65.523s] [ 41%] [32m[1mLinking CXX executable test-element_access2_cpp11[0m
+[66.298s] [ 41%] Built target test-element_access2_cpp11
+[66.430s] [ 42%] [32mBuilding CXX object tests/CMakeFiles/test-iterators2_cpp20.dir/src/unit-iterators2.cpp.o[0m
+[66.597s] [ 43%] [32m[1mLinking CXX executable test-conversions_cpp17[0m
+[67.579s] [ 43%] Built target test-conversions_cpp17
+[67.906s] [ 44%] [32mBuilding CXX object tests/CMakeFiles/test-json_patch_cpp11.dir/src/unit-json_patch.cpp.o[0m
+[69.715s] [ 45%] [32m[1mLinking CXX executable test-element_access2_cpp14[0m
+[70.015s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-json_patch.cpp:18[m[K:
+[70.016s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[70.016s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[70.016s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[70.016s]       |                                                            [01;35m[K^[m[K
+[70.245s] [ 46%] [32m[1mLinking CXX executable test-items_cpp17[0m
+[70.330s] [ 46%] Built target test-element_access2_cpp14
+[70.391s] [ 47%] [32m[1mLinking CXX executable test-iterators1_cpp11[0m
+[70.450s] [ 48%] [32mBuilding CXX object tests/CMakeFiles/test-json_pointer_cpp11.dir/src/unit-json_pointer.cpp.o[0m
+[70.714s] [ 48%] Built target test-items_cpp17
+[70.805s] [ 48%] [32mBuilding CXX object tests/CMakeFiles/test-json_pointer_cpp20.dir/src/unit-json_pointer.cpp.o[0m
+[70.860s] [ 48%] Built target test-iterators1_cpp11
+[70.960s] [ 48%] [32mBuilding CXX object tests/CMakeFiles/test-large_json_cpp11.dir/src/unit-large_json.cpp.o[0m
+[74.560s] [ 48%] [32m[1mLinking CXX executable test-iterators2_cpp11[0m
+[75.120s] [ 48%] Built target test-iterators2_cpp11
+[75.195s] [ 49%] [32m[1mLinking CXX executable test-element_access2_cpp17[0m
+[75.244s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/test-merge_patch_cpp11.dir/src/unit-merge_patch.cpp.o[0m
+[75.744s] [ 50%] Built target test-element_access2_cpp17
+[75.941s] [ 51%] [32mBuilding CXX object tests/CMakeFiles/test-meta_cpp11.dir/src/unit-meta.cpp.o[0m
+[76.749s] [ 52%] [32m[1mLinking CXX executable test-large_json_cpp11[0m
+[77.143s] [ 52%] Built target test-large_json_cpp11
+[77.169s] [ 53%] [32m[1mLinking CXX executable test-deserialization_cpp11[0m
+[77.240s] [ 54%] [32mBuilding CXX object tests/CMakeFiles/test-modifiers_cpp11.dir/src/unit-modifiers.cpp.o[0m
+[77.599s] [ 54%] Built target test-deserialization_cpp11
+[77.701s] [ 54%] [32mBuilding CXX object tests/CMakeFiles/test-msgpack_cpp11.dir/src/unit-msgpack.cpp.o[0m
+[80.014s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-msgpack.cpp:22[m[K:
+[80.115s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[80.115s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[80.116s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[80.116s]       |                                                            [01;35m[K^[m[K
+[80.825s] [ 54%] [32m[1mLinking CXX executable test-json_patch_cpp11[0m
+[80.827s] [ 54%] [32m[1mLinking CXX executable test-iterators2_cpp20[0m
+[81.450s] [ 54%] Built target test-iterators2_cpp20
+[81.468s] [ 54%] Built target test-json_patch_cpp11
+[82.550s] [ 54%] [32m[1mLinking CXX executable test-merge_patch_cpp11[0m
+[82.918s] [ 54%] Built target test-merge_patch_cpp11
+[82.927s] [ 54%] [32m[1mLinking CXX executable test-meta_cpp11[0m
+[83.222s] [ 54%] Built target test-meta_cpp11
+[83.377s] [ 55%] [32m[1mLinking CXX executable test-json_pointer_cpp11[0m
+[83.673s] [ 55%] Built target test-json_pointer_cpp11
+[84.572s] [ 56%] [32m[1mLinking CXX executable test-json_pointer_cpp20[0m
+[84.843s] [ 56%] Built target test-json_pointer_cpp20
+[85.525s] [ 57%] [32m[1mLinking CXX executable test-modifiers_cpp11[0m
+[85.722s] [ 57%] Built target test-modifiers_cpp11
+[86.758s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-pointer_access_cpp11.dir/src/unit-pointer_access.cpp.o[0m
+[86.758s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-readme_cpp11.dir/src/unit-readme.cpp.o[0m
+[86.759s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/test-reference_access_cpp11.dir/src/unit-reference_access.cpp.o[0m
+[87.794s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/test-ordered_json_cpp11.dir/src/unit-ordered_json.cpp.o[0m
+[87.796s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/test-ordered_map_cpp11.dir/src/unit-ordered_map.cpp.o[0m
+[88.914s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/test-noexcept_cpp11.dir/src/unit-noexcept.cpp.o[0m
+[88.930s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/test-no-mem-leak-on-adl-serialize_cpp11.dir/src/unit-no-mem-leak-on-adl-serialize.cpp.o[0m
+[91.722s] [ 61%] [32m[1mLinking CXX executable test-ordered_map_cpp11[0m
+[91.927s] [ 62%] [32m[1mLinking CXX executable test-msgpack_cpp11[0m
+[92.201s] [ 62%] Built target test-ordered_map_cpp11
+[92.292s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/test-regression1_cpp11.dir/src/unit-regression1.cpp.o[0m
+[92.920s] [ 63%] Built target test-msgpack_cpp11
+[92.922s] [ 63%] [32m[1mLinking CXX executable test-noexcept_cpp11[0m
+[92.998s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/test-regression1_cpp17.dir/src/unit-regression1.cpp.o[0m
+[93.386s] [ 64%] Built target test-noexcept_cpp11
+[93.518s] [ 65%] [32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp11.dir/src/unit-regression2.cpp.o[0m
+[94.108s] [ 66%] [32m[1mLinking CXX executable test-no-mem-leak-on-adl-serialize_cpp11[0m
+[94.375s] [ 67%] [32m[1mLinking CXX executable test-reference_access_cpp11[0m
+[94.528s] [ 67%] Built target test-no-mem-leak-on-adl-serialize_cpp11
+[94.630s] [ 67%] [32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp17.dir/src/unit-regression2.cpp.o[0m
+[94.695s] [ 68%] [32m[1mLinking CXX executable test-pointer_access_cpp11[0m
+[94.910s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-regression1.cpp:26[m[K:
+[94.910s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[94.910s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[94.910s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[94.911s]       |                                                            [01;35m[K^[m[K
+[95.114s] [ 68%] Built target test-reference_access_cpp11
+[95.228s] [ 68%] [32mBuilding CXX object tests/CMakeFiles/test-regression2_cpp20.dir/src/unit-regression2.cpp.o[0m
+[95.235s] [ 68%] Built target test-pointer_access_cpp11
+[95.318s] [ 69%] [32mBuilding CXX object tests/CMakeFiles/test-serialization_cpp11.dir/src/unit-serialization.cpp.o[0m
+[96.129s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-regression1.cpp:26[m[K:
+[96.140s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[96.200s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[96.201s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[96.201s]       |                                                            [01;35m[K^[m[K
+[98.263s] [ 69%] [32m[1mLinking CXX executable test-ordered_json_cpp11[0m
+[98.807s] [ 69%] Built target test-ordered_json_cpp11
+[101.054s] [ 70%] [32m[1mLinking CXX executable test-readme_cpp11[0m
+[101.574s] [ 70%] Built target test-readme_cpp11
+[102.297s] [ 70%] [32m[1mLinking CXX executable test-serialization_cpp11[0m
+[102.598s] [ 70%] Built target test-serialization_cpp11
+[111.667s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/test-type_traits_cpp11.dir/src/unit-type_traits.cpp.o[0m
+[112.540s] [ 71%] [32m[1mLinking CXX executable test-type_traits_cpp11[0m
+[112.710s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/test-to_chars_cpp11.dir/src/unit-to_chars.cpp.o[0m
+[112.795s] [ 72%] Built target test-type_traits_cpp11
+[112.859s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/test-testsuites_cpp11.dir/src/unit-testsuites.cpp.o[0m
+[114.037s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/test-ubjson_cpp11.dir/src/unit-ubjson.cpp.o[0m
+[114.704s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:15[m[K:
+[114.705s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[114.705s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[114.705s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[114.705s]       |                                                            [01;35m[K^[m[K
+[115.056s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K DOCTEST_ANON_FUNC_47[m[K()[m[K’:
+[115.058s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:366:64:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[115.058s]   366 |         const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K f(std::fopen(TEST_DATA_DIRECTORY "/json.org/1.json", "r"), &std::fclose);
+[115.058s]       |                                                                [01;35m[K^[m[K
+[115.065s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:373:64:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[115.065s]   373 |         const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K f(std::fopen(TEST_DATA_DIRECTORY "/json.org/2.json", "r"), &std::fclose);
+[115.065s]       |                                                                [01;35m[K^[m[K
+[115.067s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:380:64:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[115.067s]   380 |         const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K f(std::fopen(TEST_DATA_DIRECTORY "/json.org/3.json", "r"), &std::fclose);
+[115.067s]       |                                                                [01;35m[K^[m[K
+[115.073s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:387:64:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[115.073s]   387 |         const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K f(std::fopen(TEST_DATA_DIRECTORY "/json.org/4.json", "r"), &std::fclose);
+[115.073s]       |                                                                [01;35m[K^[m[K
+[115.079s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-testsuites.cpp:394:64:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[115.081s]   394 |         const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K f(std::fopen(TEST_DATA_DIRECTORY "/json.org/5.json", "r"), &std::fclose);
+[115.082s]       |                                                                [01;35m[K^[m[K
+[116.483s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-ubjson.cpp:17[m[K:
+[116.491s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[116.491s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[116.492s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[116.492s]       |                                                            [01;35m[K^[m[K
+[117.958s] [ 74%] [32m[1mLinking CXX executable test-to_chars_cpp11[0m
+[118.304s] [ 74%] Built target test-to_chars_cpp11
+[118.325s] [ 74%] [32m[1mLinking CXX executable test-regression1_cpp11[0m
+[119.055s] [ 75%] [32m[1mLinking CXX executable test-regression2_cpp11[0m
+[119.071s] [ 75%] Built target test-regression1_cpp11
+[119.557s] [ 75%] Built target test-regression2_cpp11
+[120.011s] [ 76%] [32m[1mLinking CXX executable test-regression2_cpp17[0m
+[120.404s] [ 76%] [32m[1mLinking CXX executable test-regression1_cpp17[0m
+[120.474s] [ 76%] Built target test-regression2_cpp17
+[120.847s] [ 76%] Built target test-regression1_cpp17
+[121.624s] [ 76%] [32m[1mLinking CXX executable test-testsuites_cpp11[0m
+[121.923s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test-unicode2_cpp11.dir/src/unit-unicode2.cpp.o[0m
+[121.929s] [ 76%] Built target test-testsuites_cpp11
+[121.987s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/test-unicode1_cpp11.dir/src/unit-unicode1.cpp.o[0m
+[122.570s] [ 78%] [32m[1mLinking CXX executable test-regression2_cpp20[0m
+[123.016s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/test-unicode3_cpp11.dir/src/unit-unicode3.cpp.o[0m
+[123.041s] [ 78%] Built target test-regression2_cpp20
+[123.100s] [ 79%] [32mBuilding CXX object tests/CMakeFiles/test-udt_macro_cpp11.dir/src/unit-udt_macro.cpp.o[0m
+[123.270s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-unicode2.cpp:21[m[K:
+[123.270s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[123.270s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[123.271s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[123.271s]       |                                                            [01;35m[K^[m[K
+[123.348s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-unicode1.cpp:19[m[K:
+[123.348s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[123.348s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[123.349s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[123.349s]       |                                                            [01;35m[K^[m[K
+[124.174s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/test-unicode4_cpp11.dir/src/unit-unicode4.cpp.o[0m
+[124.489s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-unicode3.cpp:21[m[K:
+[124.489s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[124.490s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[124.490s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[124.490s]       |                                                            [01;35m[K^[m[K
+[125.258s] [ 81%] [32mBuilding CXX object tests/CMakeFiles/test-udt_cpp11.dir/src/unit-udt.cpp.o[0m
+[126.206s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-unicode4.cpp:21[m[K:
+[126.209s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[126.210s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[126.210s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[126.210s]       |                                                            [01;35m[K^[m[K
+[127.972s] [ 82%] [32m[1mLinking CXX executable test-unicode2_cpp11[0m
+[128.586s] [ 82%] Built target test-unicode2_cpp11
+[129.810s] [ 83%] [32m[1mLinking CXX executable test-unicode3_cpp11[0m
+[129.861s] [ 84%] [32m[1mLinking CXX executable test-unicode1_cpp11[0m
+[130.259s] [ 84%] Built target test-unicode3_cpp11
+[130.261s] [ 84%] Built target test-unicode1_cpp11
+[130.822s] [ 84%] [32m[1mLinking CXX executable test-unicode4_cpp11[0m
+[131.113s] [ 84%] Built target test-unicode4_cpp11
+[132.691s] [ 85%] [32m[1mLinking CXX executable test-ubjson_cpp11[0m
+[133.040s] [ 85%] Built target test-ubjson_cpp11
+[133.095s] [ 85%] [32m[1mLinking CXX executable test-udt_macro_cpp11[0m
+[133.321s] [ 85%] Built target test-udt_macro_cpp11
+[135.596s] [ 85%] [32m[1mLinking CXX executable test-udt_cpp11[0m
+[135.858s] [ 85%] Built target test-udt_cpp11
+[135.896s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_legacy_cpp20.dir/src/unit-comparison.cpp.o[0m
+[136.915s] [ 87%] [32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_default.dir/default.cpp.o[0m
+[136.919s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o[0m
+[137.944s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/test-wstring_cpp11.dir/src/unit-wstring.cpp.o[0m
+[137.945s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/test-windows_h_cpp11.dir/src/unit-windows_h.cpp.o[0m
+[139.012s] [ 89%] [32mBuilding CXX object tests/CMakeFiles/test-unicode5_cpp11.dir/src/unit-unicode5.cpp.o[0m
+[139.031s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/test-user_defined_input_cpp11.dir/src/unit-user_defined_input.cpp.o[0m
+[140.070s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/test-udl_cpp11.dir/src/unit-udl.cpp.o[0m
+[140.139s] [ 91%] [32m[1mLinking CXX executable test-windows_h_cpp11[0m
+[140.509s] [ 91%] Built target test-windows_h_cpp11
+[140.576s] [ 92%] [32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_noversion.dir/noversion.cpp.o[0m
+[140.952s] In file included from [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-unicode5.cpp:21[m[K:
+[140.952s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:[m[K In function ‘[01m[Kbool utils::[01;32m[Kcheck_testsuite_downloaded[m[K()[m[K’:
+[140.953s] [01m[K/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/make_test_data_available.hpp:21:60:[m[K [01;35m[Kwarning: [m[Kignoring attributes on template argument ‘[01m[Kint (*)(FILE*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-attributes-Wignored-attributes]8;;[m[K]
+[140.953s]    21 |     const std::unique_ptr<std::FILE, decltype(&std::fclose)[01;35m[K>[m[K file(std::fopen(TEST_DATA_DIRECTORY "/README.md", "r"), &std::fclose);
+[140.953s]       |                                                            [01;35m[K^[m[K
+[141.715s] [ 92%] [32m[1mLinking CXX executable abi_config_default[0m
+[142.178s] [ 92%] Built target abi_config_default
+[142.258s] [ 93%] [32mBuilding CXX object tests/abi/config/CMakeFiles/abi_config_custom.dir/custom.cpp.o[0m
+[144.320s] [ 94%] [32m[1mLinking CXX executable test-wstring_cpp11[0m
+[144.357s] [ 94%] [32m[1mLinking CXX executable test-comparison_legacy_cpp20[0m
+[144.399s] [ 94%] [32m[1mLinking CXX executable test-comparison_legacy_cpp11[0m
+[144.797s] [ 94%] Built target test-comparison_legacy_cpp20
+[144.804s] [ 94%] Built target test-wstring_cpp11
+[144.861s] [ 94%] Built target test-comparison_legacy_cpp11
+[144.929s] [ 94%] [32mBuilding CXX object tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o[0m
+[144.947s] [ 94%] [32mBuilding CXX object tests/abi/inline_ns/CMakeFiles/abi_compat_inline_ns.dir/use_current.cpp.o[0m
+[144.956s] [ 95%] [32mBuilding CXX object tests/abi/inline_ns/CMakeFiles/abi_compat_inline_ns.dir/use_v3_10_5.cpp.o[0m
+[145.193s] [ 96%] [32m[1mLinking CXX executable abi_compat_diag[0m
+[145.619s] [ 96%] Built target abi_compat_diag
+[146.002s] [ 96%] [32m[1mLinking CXX executable test-unicode5_cpp11[0m
+[146.383s] [ 96%] Built target test-unicode5_cpp11
+[146.639s] [ 97%] [32m[1mLinking CXX executable test-user_defined_input_cpp11[0m
+[146.639s] [ 98%] [32m[1mLinking CXX executable abi_config_noversion[0m
+[146.705s] [ 99%] [32m[1mLinking CXX executable test-udl_cpp11[0m
+[147.174s] [ 99%] Built target test-user_defined_input_cpp11
+[147.179s] [ 99%] Built target test-udl_cpp11
+[147.207s] [ 99%] Built target abi_config_noversion
+[147.796s] [ 99%] [32m[1mLinking CXX executable abi_config_custom[0m
+[148.080s] [ 99%] Built target abi_config_custom
+[149.366s] [100%] [32m[1mLinking CXX executable abi_compat_inline_ns[0m
+[149.539s] [100%] Built target abi_compat_inline_ns
+[149.559s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/agvcore/HandWork/hand_ws/build/nlohmann_json -- -j8 -l8
+[149.754s] Invoking command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/nlohmann_json
+[149.767s] -- Install configuration: ""
+[149.769s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include
+[149.770s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann
+[149.770s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/ordered_map.hpp
+[149.771s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/adl_serializer.hpp
+[149.771s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail
+[149.771s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/exceptions.hpp
+[149.771s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/macro_scope.hpp
+[149.772s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators
+[149.772s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp
+[149.772s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp
+[149.772s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp
+[149.773s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+[149.773s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp
+[149.773s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp
+[149.773s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/json_ref.hpp
+[149.773s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/output
+[149.774s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp
+[149.774s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/output/serializer.hpp
+[149.774s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp
+[149.774s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/conversions
+[149.775s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp
+[149.775s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp
+[149.775s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp
+[149.775s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/json_pointer.hpp
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/hash.hpp
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/abi_macros.hpp
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/string_concat.hpp
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/string_escape.hpp
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp
+[149.776s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input/parser.hpp
+[149.777s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input/position_t.hpp
+[149.777s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input/lexer.hpp
+[149.777s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp
+[149.777s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp
+[149.777s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta
+[149.778s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp
+[149.778s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp
+[149.778s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp
+[149.779s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp
+[149.779s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp
+[149.779s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/call_std
+[149.779s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp
+[149.779s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp
+[149.780s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp
+[149.780s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/meta/detected.hpp
+[149.780s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/value_t.hpp
+[149.780s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp
+[149.781s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp
+[149.781s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/thirdparty
+[149.781s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/thirdparty/hedley
+[149.782s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+[149.782s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp
+[149.782s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp
+[149.782s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/json.hpp
+[149.783s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/include/nlohmann/json_fwd.hpp
+[149.783s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+[149.783s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+[149.783s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+[149.784s] -- Installing: /home/agvcore/HandWork/hand_ws/install/nlohmann_json/share/pkgconfig/nlohmann_json.pc
+[149.786s] Invoked command in '/home/agvcore/HandWork/hand_ws/build/nlohmann_json' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/agvcore/HandWork/hand_ws/build/nlohmann_json
