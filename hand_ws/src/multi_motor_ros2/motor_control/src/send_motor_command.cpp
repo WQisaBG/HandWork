@@ -1,10 +1,9 @@
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp> // 使用字符串作为命令
 
-#include "serial/serial.h" // 串口库
+#include "serial/serial.h" 
 #include "motor_control_command_msgs/msg/motor_control_command.hpp" 
-#include "motor_control_command_msgs/msg/motor.hpp" // Motor 消息的头文件
-
+#include "motor_control_command_msgs/msg/motor.hpp" 
 
 class MotorControlNode : public rclcpp::Node 
 {
@@ -25,27 +24,26 @@ class MotorControlNode : public rclcpp::Node
 
             RCLCPP_INFO(this->get_logger(), "Serial port opened successfully.");
         }
-
     private:
         void on_message(const motor_control_command_msgs::msg::MotorControlCommand::SharedPtr msg) 
         {
             RCLCPP_INFO(this->get_logger(), "Received MotorCommand: id=%s, timestamp=%s", 
                                                 msg->id.c_str(), msg->timestamp.c_str());
             
-            for (const auto &motor : msg->motors) 
+            for(const auto &motor : msg->motors) 
             {
                 RCLCPP_INFO(this->get_logger(), " Motor index: %d, Target Position: %d", 
                                                     motor.index, motor.target_position);
-                auto motor_index = motor.index;
-                auto motor_command = transform_command(motor.target_position);
+                std::int32_t motor_index = motor.index;
+                std::string motor_command = transform_command(motor_index,motor.target_position); //将target_position转化成指令
                 send_command_to_motor(motor_index, motor_command);
             }
         }
 
-        std::string transform_command(std::int32_t target_position)
+        std::string transform_command(std::int32_t motor_index,std::int32_t target_position)
         {
             std::string command = "0X1111111" ;
-            return command;
+            return command;    //包括 电缸的id target_position
         }
 
         void send_command_to_motor(std::int32_t index ,std::string command) 
@@ -59,10 +57,6 @@ class MotorControlNode : public rclcpp::Node
         rclcpp::Subscription<motor_control_command_msgs::msg::MotorControlCommand>::SharedPtr subscription_;
         serial::Serial serial_port;  // 串口对象
 };
-
-
-
-
 
 int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);

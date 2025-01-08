@@ -75,8 +75,8 @@ private:
         }
     }
 
-    httplib::Server server_; // HTTP 服务器实例
-    rclcpp::Publisher<motor_control_command_msgs::msg::MotorControlCommand>::SharedPtr pub_; // ROS 话题发布者
+    httplib::Server server_; // http服务器实例
+    rclcpp::Publisher<motor_control_command_msgs::msg::MotorControlCommand>::SharedPtr pub_; 
 };
 
 int main(int argc, char *argv[]) {
