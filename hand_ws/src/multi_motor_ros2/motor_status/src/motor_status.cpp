@@ -103,35 +103,46 @@ private:
             //     res.set_content(response_json.dump(), "application/json");
             // });
 
-
             svr.listen("127.0.0.1", 10088); //启动监听服务器
         }).detach();
     }
 
     json query_motor_status() 
     {
-        if (serial_port_.isOpen()) {
-            std::string command = "GET_STATUS\n"; // 根据电机协议发送查询命令 从电机获取电机的状态
-            serial_port_.write(command);
+        std::int32_t decimalValue = 0;
+        if (serial_port_.isOpen()) 
+        {
+            std::string command = "GET_STATUS \n"; // 根据电机协议发送查询命令  目前GET请求获取,固定的
+            serial_port_.write(command);    //写指令
 
             std::string result = serial_port_.readline(100); // 读取串口响应  获取电机返回的结果
+            try 
+            {
+                std::string combinedHex = extractAndCombineHexValues(result);
+                decimalValue = parseHexToDecimal(combinedHex);
+                std::cout << "Combined Hex value: " << combinedHex << ", Decimal value: " << decimalValue << std::endl;
+
+            } 
+            catch (const std::invalid_argument& e) 
+            {
+                std::cerr << "Error: " << e.what() << std::endl;
+            } 
+            catch (const std::out_of_range& e) 
+            {
+                std::cerr << "Hex string out of range: " << e.what() << std::endl;
+            }
 
             json motor_status;
             motor_status["timestamp"] = get_current_time();
 
             // 解析结果并封装为 JSON
-            std::istringstream ss(result);
-            std::string item;
             std::vector<json> motors;
-
-            unsigned int index = 0;
-            while (std::getline(ss, item, ',')) 
-            {
-                json motor;
+            std::int32_t index = 0;
+            json motor;
                 try 
                 {
                     motor["index"] = index++;
-                    motor["currentPosition"] = std::stoi(item);
+                    motor["currentPosition"] = decimalValue;
                     motor["targetPosition"] = motor["currentPosition"].get<int>() + 10; // 示例
                     motor["error"] = "No error"; 
                     motor["mode"] = "normal"; // 示例
@@ -141,15 +152,47 @@ private:
                 {
                     RCLCPP_ERROR(this->get_logger(), "Error parsing motor data: %s", e.what());
                 }
-            }
+
 
             motor_status["motor"] = motors;
             last_motor_status_ = motor_status.dump(); // 保存最后状态
             return motor_status;
-        } else {
+        } 
+        else 
+        {
             RCLCPP_WARN(this->get_logger(), "Serial port is not open");
             return json{};
         }
+    }
+
+    std::string extractAndCombineHexValues(const std::string& hexString) 
+    {
+        size_t pos = hexString.find("0x");
+        std::string formattedString = (pos != std::string::npos) ? hexString.substr(pos + 2) : hexString;
+
+        std::istringstream ss(formattedString);
+        std::vector<std::string> hexValues;
+        std::string item;
+
+        // 使用循环提取十六进制数
+        while (ss >> item) 
+        {
+            hexValues.push_back(item);
+        }
+
+        // 检查是否有足够的元素来提取
+        if (hexValues.size() < 8) {
+            throw std::invalid_argument("Not enough hex values in the string.");
+        }
+
+        // 提取 "AB" 和 "CD"，并合并成 "ABCD"
+        return hexValues[7] + hexValues[6];
+    }
+
+    // 解析合并后的十六进制字符串
+    std::int32_t parseHexToDecimal(const std::string& hexValue) 
+    {
+        return std::stoi(hexValue, nullptr, 16);
     }
 
 
