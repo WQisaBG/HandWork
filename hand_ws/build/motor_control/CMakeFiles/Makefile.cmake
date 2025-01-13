@@ -653,4 +653,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/adapter_http.dir/DependInfo.cmake"
   "CMakeFiles/deal_http.dir/DependInfo.cmake"
   "CMakeFiles/send_motor_command.dir/DependInfo.cmake"
+  "CMakeFiles/motor_control_state.dir/DependInfo.cmake"
   )

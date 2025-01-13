@@ -55,15 +55,26 @@ ament_target_dependencies(
 
 )
 
+#=======================================================
+add_executable(motor_control_state src/motor_control_state.cpp)
+ament_target_dependencies(
+  motor_control_state
+  "rclcpp"
+  "std_msgs"
+  "motor_control_command_msgs"
+  "serial"
+
+)
 
 
-
-
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch)
 
 
 install(TARGETS
   adapter_http
   deal_http
   send_motor_command
+  motor_control_state
   DESTINATION lib/${PROJECT_NAME})
 ament_package()

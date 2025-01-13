@@ -1,6 +1,8 @@
+/home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/launch/adapter_launch.xml
 /home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/adapter_http
 /home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/deal_http
 /home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/send_motor_command
+/home/agvcore/HandWork/hand_ws/install/motor_control/lib/motor_control/motor_control_state
 /home/agvcore/HandWork/hand_ws/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control
 /home/agvcore/HandWork/hand_ws/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control
 /home/agvcore/HandWork/hand_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.sh

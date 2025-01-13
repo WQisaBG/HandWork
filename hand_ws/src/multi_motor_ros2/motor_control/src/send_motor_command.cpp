@@ -54,6 +54,10 @@ class MotorControlNode : public rclcpp::Node
             RCLCPP_INFO(this->get_logger(), "Sent command to motor: '%s'", cmd_to_send.c_str());
         }
 
+
+
+        
+
         rclcpp::Subscription<motor_control_command_msgs::msg::MotorControlCommand>::SharedPtr subscription_;
         serial::Serial serial_port;  // 串口对象
 };

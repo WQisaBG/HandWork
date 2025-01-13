@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="motor_control" exec="adapter_http" name="http_server_node" output="screen"/>
+    <node pkg="motor_control" exec="send_motor_command" name="motor_control_node" output="screen"/>
+</launch>

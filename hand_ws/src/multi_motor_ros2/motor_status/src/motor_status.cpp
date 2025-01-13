@@ -60,50 +60,8 @@ private:
                 }
             );
 
-            //状态查询的POST请求    使用post请求查询 是针对某一状态进行查询    后面添加具体的解析
-            // svr.Post("/motor/status/query", [this](const httplib::Request &req, httplib::Response &res) 
-            //  {
-            //     // 解析 JSON 请求
-            //     json request_json;
-            //     try {
-            //         request_json = json::parse(req.body);
-            //     } catch (const std::exception &e) {
-            //         res.status = 400; // Bad Request
-            //         res.set_content("{\"error\": \"Invalid JSON\"}", "application/json");
-            //         return;
-            //     }
 
-            //     // 提取任务ID和时间戳
-            //     std::string task_id = request_json.value("id", "unknown");
-            //     std::string timestamp = request_json.value("timestamp", "unknown");
-
-            //     // 查找 motor 数组
-            //     if (!request_json.contains("motor")) {
-            //         res.status = 400; 
-            //         res.set_content("{\"error\": \"Missing 'motor' field\"}", "application/json");
-            //         return;
-            //     }
-
-            //     json response_json;
-            //     for (const auto &motor : request_json["motor"]) {
-            //         if (!motor.contains("index") || !motor.contains("params")) {
-            //             continue; // 跳过无效的 motor 条目
-            //         }
-
-            //         int index = motor["index"].get<int>();
-            //         std::vector<std::string> params = motor["params"].get<std::vector<std::string>>();
-
-            //         json motor_status = get_motor_status(index, params);
-            //         response_json["motor"].push_back({{"index", index}, {"status", motor_status}});
-            //     }
-
-            //     // 构建响应
-            //     response_json["id"] = task_id;
-            //     response_json["timestamp"] = timestamp;
-            //     res.set_content(response_json.dump(), "application/json");
-            // });
-
-            svr.listen("127.0.0.1", 10088); //启动监听服务器
+            svr.listen("127.0.0.1", 10089); //启动监听服务器
         }).detach();
     }
 
@@ -196,47 +154,7 @@ private:
     }
 
 
-//=============================状态查询的POST=====================================
-    // json get_motor_status(int index, const std::vector<std::string> &requested_params) 
-    // {
-    //     json status;
 
-    //     // 假设您有一个函数来获取电机的实际状态
-    //     if (serial_port_.isOpen()) {
-    //         std::string command = "GET_STATUS " + std::to_string(index) + "\n"; // 发送查询命令
-    //         serial_port_.write(command);
-
-    //         std::string result = serial_port_.readline(100); // 读取串口响应
-            
-    //         // 示例解析：假设每个项是 "速度,位置,模式"
-    //         std::istringstream ss(result);
-    //         std::string item;
-    //         std::vector<std::string> status_data;
-
-    //         while (std::getline(ss, item, ',')) {
-    //             status_data.push_back(item);
-    //         }
-
-    //         // 基于请求参数返回相应的状态
-    //         for (const auto &param : requested_params) {
-    //             if (param == "currentVelocity") {
-    //                 status["currentVelocity"] = status_data.size() > 0 ? std::stof(status_data[0]) : 0.0;
-    //             } else if (param == "currentPosition") {
-    //                 status["currentPosition"] = status_data.size() > 1 ? std::stof(status_data[1]) : 0.0;
-    //             } else if (param == "motionMode") {
-    //                 status["motionMode"] = status_data.size() > 2 ? status_data[2] : "unknown";
-    //             }
-    //         }
-    //     } 
-    //     else 
-    //     {
-    //         RCLCPP_WARN(this->get_logger(), "Serial port is not open");
-    //         return json{};
-    //     }
-
-    //     return status;
-    // }
-//=============================状态查询的POST=====================================
 
     void publish_motor_status() 
     {

@@ -236,6 +236,19 @@ send_motor_command/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_motor_command.dir/build.make CMakeFiles/send_motor_command.dir/build
 .PHONY : send_motor_command/fast
 
+#=============================================================================
+# Target rules for targets named motor_control_state
+
+# Build rule for target.
+motor_control_state: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_control_state
+.PHONY : motor_control_state
+
+# fast build rule for target.
+motor_control_state/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control_state.dir/build.make CMakeFiles/motor_control_state.dir/build
+.PHONY : motor_control_state/fast
+
 src/adapter_http.o: src/adapter_http.cpp.o
 .PHONY : src/adapter_http.o
 
@@ -284,6 +297,30 @@ src/deal_http.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal_http.dir/build.make CMakeFiles/deal_http.dir/src/deal_http.cpp.s
 .PHONY : src/deal_http.cpp.s
 
+src/motor_control_state.o: src/motor_control_state.cpp.o
+.PHONY : src/motor_control_state.o
+
+# target to build an object file
+src/motor_control_state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control_state.dir/build.make CMakeFiles/motor_control_state.dir/src/motor_control_state.cpp.o
+.PHONY : src/motor_control_state.cpp.o
+
+src/motor_control_state.i: src/motor_control_state.cpp.i
+.PHONY : src/motor_control_state.i
+
+# target to preprocess a source file
+src/motor_control_state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control_state.dir/build.make CMakeFiles/motor_control_state.dir/src/motor_control_state.cpp.i
+.PHONY : src/motor_control_state.cpp.i
+
+src/motor_control_state.s: src/motor_control_state.cpp.s
+.PHONY : src/motor_control_state.s
+
+# target to generate assembly for a file
+src/motor_control_state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control_state.dir/build.make CMakeFiles/motor_control_state.dir/src/motor_control_state.cpp.s
+.PHONY : src/motor_control_state.cpp.s
+
 src/send_motor_command.o: src/send_motor_command.cpp.o
 .PHONY : src/send_motor_command.o
 
@@ -325,6 +362,7 @@ help:
 	@echo "... uninstall"
 	@echo "... adapter_http"
 	@echo "... deal_http"
+	@echo "... motor_control_state"
 	@echo "... send_motor_command"
 	@echo "... src/adapter_http.o"
 	@echo "... src/adapter_http.i"
@@ -332,6 +370,9 @@ help:
 	@echo "... src/deal_http.o"
 	@echo "... src/deal_http.i"
 	@echo "... src/deal_http.s"
+	@echo "... src/motor_control_state.o"
+	@echo "... src/motor_control_state.i"
+	@echo "... src/motor_control_state.s"
 	@echo "... src/send_motor_command.o"
 	@echo "... src/send_motor_command.i"
 	@echo "... src/send_motor_command.s"
