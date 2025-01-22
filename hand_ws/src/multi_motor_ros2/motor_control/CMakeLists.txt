@@ -19,7 +19,9 @@ find_package(serial REQUIRED)  # 添加这一行以找到 serial 库
 
 # 添加 cpp-httplib 的路径
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../thirdparty/cpp-httplib)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../thirdparty/serial)
+# include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/serial)
+include_directories(${serial_INCLUDE_DIRS})
+
 
 
 #=======================================================

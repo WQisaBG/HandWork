@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/adapter_http.dir/src/adapter_http.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/deal_http.dir/src/deal_http.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable deal_http[0m
-[ 75%] Built target deal_http

@@ -1,0 +1,5 @@
+{
+    "serial_port": "COM1",
+    "baudrate": 9600,
+    "http_port": 8080
+}
