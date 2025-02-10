@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "motor_control_command_msgs/msg/detail/motor__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "motor_control_command_msgs/msg/detail/motor__functions.h"
 #include "motor_control_command_msgs/msg/detail/motor__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

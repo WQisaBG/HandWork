@@ -1,0 +1,5 @@
+Frequency over 5009 ms: 19.3651 Hz
+Frequency over 5020 ms: 19.3227 Hz
+Frequency over 5015 ms: 19.342 Hz
+Frequency over 5019 ms: 19.3266 Hz
+[ros2run]: Interrupt
