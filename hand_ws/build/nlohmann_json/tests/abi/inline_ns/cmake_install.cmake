@@ -1,8 +1,8 @@
-# Install script for directory: /home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/abi/inline_ns
+# Install script for directory: /home/abc/HandWork/hand_ws/src/thirdparty/json/tests/abi/inline_ns
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/agvcore/HandWork/hand_ws/install/nlohmann_json")
+  set(CMAKE_INSTALL_PREFIX "/home/abc/HandWork/hand_ws/install/nlohmann_json")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -3,9 +3,6 @@
 // with input from motor_control_command_msgs:msg/MotorControlCommand.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "motor_control_command_msgs/msg/motor_control_command.h"
-
-
 #ifndef MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__STRUCT_H_
 #define MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__STRUCT_H_
 
@@ -17,6 +14,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

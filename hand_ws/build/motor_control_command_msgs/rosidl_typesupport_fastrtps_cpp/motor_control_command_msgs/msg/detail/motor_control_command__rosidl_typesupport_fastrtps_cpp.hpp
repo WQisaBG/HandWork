@@ -5,7 +5,6 @@
 #ifndef MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
 #define MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
 
-#include <cstddef>
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "motor_control_command_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
@@ -55,25 +54,6 @@ get_serialized_size(
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_motor_control_command_msgs
 max_serialized_size_MotorControlCommand(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_motor_control_command_msgs
-cdr_serialize_key(
-  const motor_control_command_msgs::msg::MotorControlCommand & ros_message,
-  eprosima::fastcdr::Cdr &);
-
-size_t
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_motor_control_command_msgs
-get_serialized_size_key(
-  const motor_control_command_msgs::msg::MotorControlCommand & ros_message,
-  size_t current_alignment);
-
-size_t
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_motor_control_command_msgs
-max_serialized_size_key_MotorControlCommand(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/agvcore/HandWork/hand_ws/src/thirdparty/json
-BuildDirectory: /home/agvcore/HandWork/hand_ws/build/nlohmann_json
+SourceDirectory: /home/abc/HandWork/hand_ws/src/thirdparty/json
+BuildDirectory: /home/abc/HandWork/hand_ws/build/nlohmann_json
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: agvcoreAB
+Site: abc123
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -21,13 +21,12 @@ LabelsForSubprojects:
 
 # Submission information
 SubmitURL: http://
-SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/agvcore/HandWork/hand_ws/src/thirdparty/json"
+ConfigureCommand: "/usr/bin/cmake" "/home/abc/HandWork/hand_ws/src/thirdparty/json"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -64,7 +63,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 13.2.0
+CompilerVersion: 11.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

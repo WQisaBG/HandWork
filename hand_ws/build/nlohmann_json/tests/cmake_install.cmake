@@ -1,8 +1,8 @@
-# Install script for directory: /home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests
+# Install script for directory: /home/abc/HandWork/hand_ws/src/thirdparty/json/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/agvcore/HandWork/hand_ws/install/nlohmann_json")
+  set(CMAKE_INSTALL_PREFIX "/home/abc/HandWork/hand_ws/install/nlohmann_json")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,36 +44,36 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/abi/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/abi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/cmake_import/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/cmake_import/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/cmake_import_minver/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/cmake_import_minver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/cmake_add_subdirectory/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/cmake_add_subdirectory/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/cmake_fetch_content/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/cmake_fetch_content/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/cmake_fetch_content2/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/cmake_fetch_content2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/agvcore/HandWork/hand_ws/build/nlohmann_json/tests/cmake_target_include_directories/cmake_install.cmake")
+  include("/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/cmake_target_include_directories/cmake_install.cmake")
 endif()
 

@@ -1,25 +1,25 @@
 {
   "package_name": "motor_control_command_msgs",
-  "output_dir": "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_typesupport_c/motor_control_command_msgs",
-  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_c/resource",
+  "output_dir": "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_typesupport_c/motor_control_command_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/Motor.idl",
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/MotorControlCommand.idl"
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/Motor.idl",
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/MotorControlCommand.idl"
   ],
   "ros_interface_dependencies": [
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
-    "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c",
-    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py",
-    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/action__type_support.c.em",
-    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
-    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
-    "/opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/Motor.idl",
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/MotorControlCommand.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/Motor.idl",
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/MotorControlCommand.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]
 }

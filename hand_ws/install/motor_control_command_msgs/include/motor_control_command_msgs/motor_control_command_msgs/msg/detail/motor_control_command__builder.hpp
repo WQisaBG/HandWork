@@ -2,9 +2,6 @@
 // with input from motor_control_command_msgs:msg/MotorControlCommand.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "motor_control_command_msgs/msg/motor_control_command.hpp"
-
-
 #ifndef MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__BUILDER_HPP_
 #define MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__BUILDER_HPP_
 

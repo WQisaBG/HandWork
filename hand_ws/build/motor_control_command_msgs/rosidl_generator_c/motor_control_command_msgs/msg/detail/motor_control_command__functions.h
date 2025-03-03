@@ -2,9 +2,6 @@
 // with input from motor_control_command_msgs:msg/MotorControlCommand.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "motor_control_command_msgs/msg/motor_control_command.h"
-
-
 #ifndef MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__FUNCTIONS_H_
 #define MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR_CONTROL_COMMAND__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "motor_control_command_msgs/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ motor_control_command_msgs__msg__MotorControlCommand__fini(motor_control_command
  */
 ROSIDL_GENERATOR_C_PUBLIC_motor_control_command_msgs
 motor_control_command_msgs__msg__MotorControlCommand *
-motor_control_command_msgs__msg__MotorControlCommand__create(void);
+motor_control_command_msgs__msg__MotorControlCommand__create();
 
 /// Destroy msg/MotorControlCommand message.
 /**
@@ -101,30 +92,6 @@ bool
 motor_control_command_msgs__msg__MotorControlCommand__copy(
   const motor_control_command_msgs__msg__MotorControlCommand * input,
   motor_control_command_msgs__msg__MotorControlCommand * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_motor_control_command_msgs
-const rosidl_type_hash_t *
-motor_control_command_msgs__msg__MotorControlCommand__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_motor_control_command_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-motor_control_command_msgs__msg__MotorControlCommand__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_motor_control_command_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-motor_control_command_msgs__msg__MotorControlCommand__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_motor_control_command_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-motor_control_command_msgs__msg__MotorControlCommand__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/MotorControlCommand messages.
 /**

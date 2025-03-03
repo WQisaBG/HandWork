@@ -13,8 +13,8 @@ set_target_properties(motor_control_command_msgs::motor_control_command_msgs__ro
   IMPORTED_SONAME_NOCONFIG "libmotor_control_command_msgs__rosidl_typesupport_c.so"
   )
 
-list(APPEND _cmake_import_check_targets motor_control_command_msgs::motor_control_command_msgs__rosidl_typesupport_c )
-list(APPEND _cmake_import_check_files_for_motor_control_command_msgs::motor_control_command_msgs__rosidl_typesupport_c "${_IMPORT_PREFIX}/lib/libmotor_control_command_msgs__rosidl_typesupport_c.so" )
+list(APPEND _IMPORT_CHECK_TARGETS motor_control_command_msgs::motor_control_command_msgs__rosidl_typesupport_c )
+list(APPEND _IMPORT_CHECK_FILES_FOR_motor_control_command_msgs::motor_control_command_msgs__rosidl_typesupport_c "${_IMPORT_PREFIX}/lib/libmotor_control_command_msgs__rosidl_typesupport_c.so" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

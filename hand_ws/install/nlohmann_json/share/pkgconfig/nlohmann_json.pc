@@ -1,4 +1,7 @@
+prefix=/home/abc/HandWork/hand_ws/install/nlohmann_json
+includedir=${prefix}/include
+
 Name: nlohmann_json
 Description: JSON for Modern C++
 Version: 3.11.3
-Cflags: -I/home/agvcore/HandWork/hand_ws/install/nlohmann_json/include
+Cflags: -I${includedir}

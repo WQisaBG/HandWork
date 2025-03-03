@@ -39,10 +39,10 @@ svr.listen("0.0.0.0", 8080);
 #include "path/to/httplib.h"
 
 // HTTP
-httplib::Client cli("http://cpp-httplib-server.yhirose.repl.co");
+httplib::Client cli("http://yhirose.github.io");
 
 // HTTPS
-httplib::Client cli("https://cpp-httplib-server.yhirose.repl.co");
+httplib::Client cli("https://yhirose.github.io");
 
 auto res = cli.Get("/hi");
 res->status;
@@ -123,6 +123,21 @@ int main(void)
       auto val = req.get_param_value("key");
     }
     res.set_content(req.body, "text/plain");
+  });
+
+  // If the handler takes time to finish, you can also poll the connection state
+  svr.Get("/task", [&](const Request& req, Response& res) {
+    const char * result = nullptr;
+    process.run(); // for example, starting an external process
+    while (result == nullptr) {
+      sleep(1);
+      if (req.is_connection_closed()) {
+        process.kill(); // kill the process
+        return;
+      }
+      result = process.stdout(); // != nullptr if the process finishes
+    }
+    res.set_content(result, "text/plain");
   });
 
   svr.Get("/stop", [&](const Request& req, Response& res) {
@@ -391,11 +406,11 @@ svr.Get("/chunked", [&](const Request& req, Response& res) {
 
 ```cpp
 svr.Get("/content", [&](const Request &req, Response &res) {
-  res.set_file_content("./path/to/conent.html");
+  res.set_file_content("./path/to/content.html");
 });
 
 svr.Get("/content", [&](const Request &req, Response &res) {
-  res.set_file_content("./path/to/conent", "text/html");
+  res.set_file_content("./path/to/content", "text/html");
 });
 ```
 
@@ -447,7 +462,7 @@ Please see [Server example](https://github.com/yhirose/cpp-httplib/blob/master/e
 
 ### Default thread pool support
 
-`ThreadPool` is used as a **default** task queue, and the default thread count is 8, or `std::thread::hardware_concurrency()`. You can change it with `CPPHTTPLIB_THREAD_POOL_COUNT`.
+`ThreadPool` is used as the **default** task queue, with a default thread count of 8 or `std::thread::hardware_concurrency() - 1`, whichever is greater. You can change it with `CPPHTTPLIB_THREAD_POOL_COUNT`.
 
 If you want to set the thread count at runtime, there is no convenient way... But here is how.
 
@@ -639,6 +654,9 @@ res = cli.Options("/resource/foo");
 cli.set_connection_timeout(0, 300000); // 300 milliseconds
 cli.set_read_timeout(5, 0); // 5 seconds
 cli.set_write_timeout(5, 0); // 5 seconds
+
+// This method works the same as curl's `--max-timeout` option
+svr.set_max_timeout(5000); // 5 seconds
 ```
 
 ### Receive content with a content receiver
@@ -825,7 +843,7 @@ Please see https://github.com/google/brotli for more detail.
 
 ### Default `Accept-Encoding` value
 
-The default `Acdcept-Encoding` value contains all possible compression types. So, the following two examples are same.
+The default `Accept-Encoding` value contains all possible compression types. So, the following two examples are same.
 
 ```c++
 res = cli.Get("/resource/foo");
@@ -854,11 +872,6 @@ res->body; // Compressed data
 
 ```
 
-Use `poll` instead of `select`
-------------------------------
-
-`select` system call is used as default since it's more widely supported. If you want to let cpp-httplib use `poll` instead, you can do so with `CPPHTTPLIB_USE_POLL`.
-
 Unix Domain Socket Support
 --------------------------
 
@@ -866,7 +879,7 @@ Unix Domain Socket support is available on Linux and macOS.
 
 ```c++
 // Server
-httplib::Server svr("./my-socket.sock");
+httplib::Server svr;
 svr.set_address_family(AF_UNIX).listen("./my-socket.sock", 80);
 
 // Client
@@ -916,9 +929,6 @@ From Docker Hub
 
 ```bash
 > docker run --rm -it -p 8080:80 -v ./docker/html:/html yhirose4dockerhub/cpp-httplib-server
-...
-
-> docker run --init --rm -it -p 8080:80 -v ./docker/html:/html cpp-httplib-server
 Serving HTTP on 0.0.0.0 port 80 ...
 192.168.65.1 - - [31/Aug/2024:21:33:56 +0000] "GET / HTTP/1.1" 200 599 "-" "curl/8.7.1"
 192.168.65.1 - - [31/Aug/2024:21:34:26 +0000] "GET / HTTP/1.1" 200 599 "-" "Mozilla/5.0 ..."
@@ -951,12 +961,12 @@ Include `httplib.h` before `Windows.h` or include `Windows.h` by defining `WIN32
 > cpp-httplib officially supports only the latest Visual Studio. It might work with former versions of Visual Studio, but I can no longer verify it. Pull requests are always welcome for the older versions of Visual Studio unless they break the C++11 conformance.
 
 > [!NOTE]
-> Windows 8 or lower, Visual Studio 2013 or lower, and Cygwin and MSYS2 including MinGW are neither supported nor tested.
+> Windows 8 or lower, Visual Studio 2015 or lower, and Cygwin and MSYS2 including MinGW are neither supported nor tested.
 
 License
 -------
 
-MIT license (© 2024 Yuji Hirose)
+MIT license (© 2025 Yuji Hirose)
 
 Special Thanks To
 -----------------

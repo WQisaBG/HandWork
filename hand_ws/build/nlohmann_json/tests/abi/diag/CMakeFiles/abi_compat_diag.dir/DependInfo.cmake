@@ -8,15 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/abi/diag/diag.cpp" "tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o" "gcc" "tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o.d"
+  "/home/abc/HandWork/hand_ws/src/thirdparty/json/tests/abi/diag/diag.cpp" "tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o" "gcc" "tests/abi/diag/CMakeFiles/abi_compat_diag.dir/diag.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/abi/CMakeFiles/abi_compat_main.dir/DependInfo.cmake"
+  "/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/abi/diag/CMakeFiles/abi_compat_diag_on.dir/DependInfo.cmake"
+  "/home/abc/HandWork/hand_ws/build/nlohmann_json/tests/abi/diag/CMakeFiles/abi_compat_diag_off.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

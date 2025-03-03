@@ -9,23 +9,11 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "motor_control_command_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-#include "motor_control_command_msgs/msg/detail/motor_control_command__struct.h"
-#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
-bool cdr_serialize_motor_control_command_msgs__msg__MotorControlCommand(
-  const motor_control_command_msgs__msg__MotorControlCommand * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
-bool cdr_deserialize_motor_control_command_msgs__msg__MotorControlCommand(
-  eprosima::fastcdr::Cdr &,
-  motor_control_command_msgs__msg__MotorControlCommand * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
 size_t get_serialized_size_motor_control_command_msgs__msg__MotorControlCommand(
@@ -34,22 +22,6 @@ size_t get_serialized_size_motor_control_command_msgs__msg__MotorControlCommand(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
 size_t max_serialized_size_motor_control_command_msgs__msg__MotorControlCommand(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
-bool cdr_serialize_key_motor_control_command_msgs__msg__MotorControlCommand(
-  const motor_control_command_msgs__msg__MotorControlCommand * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
-size_t get_serialized_size_key_motor_control_command_msgs__msg__MotorControlCommand(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_motor_control_command_msgs
-size_t max_serialized_size_key_motor_control_command_msgs__msg__MotorControlCommand(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

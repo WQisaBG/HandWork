@@ -22,6 +22,7 @@ find_package(motor_control_command_msgs REQUIRED)
 # 添加 cpp-httplib 的路径
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../thirdparty/cpp-httplib)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../thirdparty/serial)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../thirdparty/json/include)
 include_directories(include)
 
 #=======================================================

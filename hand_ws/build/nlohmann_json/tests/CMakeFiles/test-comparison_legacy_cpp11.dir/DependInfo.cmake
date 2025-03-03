@@ -8,15 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/agvcore/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-comparison.cpp" "tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o" "gcc" "tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o.d"
+  "/home/abc/HandWork/hand_ws/src/thirdparty/json/tests/src/unit-comparison.cpp" "tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o" "gcc" "tests/CMakeFiles/test-comparison_legacy_cpp11.dir/src/unit-comparison.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

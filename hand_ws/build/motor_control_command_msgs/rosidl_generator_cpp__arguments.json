@@ -1,42 +1,34 @@
 {
   "package_name": "motor_control_command_msgs",
-  "output_dir": "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_generator_cpp/motor_control_command_msgs",
-  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
+  "output_dir": "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_generator_cpp/motor_control_command_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/Motor.idl",
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/MotorControlCommand.idl"
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/Motor.idl",
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs:msg/MotorControlCommand.idl"
   ],
   "ros_interface_dependencies": [
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/python3.12/site-packages/rosidl_generator_cpp/__init__.py",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__type_support.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__type_support.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__type_support.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/Motor.idl",
-    "/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/MotorControlCommand.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
-  ],
-  "type_description_tuples": [
-    "msg/Motor.idl:/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_generator_type_description/motor_control_command_msgs/msg/Motor.json",
-    "msg/MotorControlCommand.idl:/home/agvcore/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_generator_type_description/motor_control_command_msgs/msg/MotorControlCommand.json"
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/Motor.idl",
+    "/home/abc/HandWork/hand_ws/build/motor_control_command_msgs/rosidl_adapter/motor_control_command_msgs/msg/MotorControlCommand.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]
 }

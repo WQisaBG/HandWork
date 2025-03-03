@@ -10,7 +10,6 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/motor_control_command_msgs/msg/detail/motor_control_command__type_support.hpp"
   "rosidl_generator_cpp/motor_control_command_msgs/msg/motor.hpp"
   "rosidl_generator_cpp/motor_control_command_msgs/msg/motor_control_command.hpp"
-  "rosidl_generator_cpp/motor_control_command_msgs/msg/rosidl_generator_cpp__visibility_control.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

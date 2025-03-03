@@ -2,9 +2,6 @@
 // with input from motor_control_command_msgs:msg/Motor.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "motor_control_command_msgs/msg/motor.h"
-
-
 #ifndef MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR__TYPE_SUPPORT_H_
 #define MOTOR_CONTROL_COMMAND_MSGS__MSG__DETAIL__MOTOR__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   motor_control_command_msgs,
   msg,
   Motor
-)(void);
+)();
 
 #ifdef __cplusplus
 }

@@ -101,7 +101,6 @@ static rosidl_typesupport_introspection_c__MessageMember motor_control_command_m
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -119,7 +118,6 @@ static rosidl_typesupport_introspection_c__MessageMember motor_control_command_m
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -137,7 +135,6 @@ static rosidl_typesupport_introspection_c__MessageMember motor_control_command_m
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
-    false,  // is key
     true,  // is array
     0,  // array size
     false,  // is upper bound
@@ -157,7 +154,6 @@ static const rosidl_typesupport_introspection_c__MessageMembers motor_control_co
   "MotorControlCommand",  // message name
   3,  // number of fields
   sizeof(motor_control_command_msgs__msg__MotorControlCommand),
-  false,  // has_any_key_member_
   motor_control_command_msgs__msg__MotorControlCommand__rosidl_typesupport_introspection_c__MotorControlCommand_message_member_array,  // message members
   motor_control_command_msgs__msg__MotorControlCommand__rosidl_typesupport_introspection_c__MotorControlCommand_init_function,  // function to initialize message memory (memory has to be allocated)
   motor_control_command_msgs__msg__MotorControlCommand__rosidl_typesupport_introspection_c__MotorControlCommand_fini_function  // function to terminate message instance (will not free memory)
@@ -169,9 +165,6 @@ static rosidl_message_type_support_t motor_control_command_msgs__msg__MotorContr
   0,
   &motor_control_command_msgs__msg__MotorControlCommand__rosidl_typesupport_introspection_c__MotorControlCommand_message_members,
   get_message_typesupport_handle_function,
-  &motor_control_command_msgs__msg__MotorControlCommand__get_type_hash,
-  &motor_control_command_msgs__msg__MotorControlCommand__get_type_description,
-  &motor_control_command_msgs__msg__MotorControlCommand__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_motor_control_command_msgs

@@ -11,7 +11,7 @@
 #include <mutex>
 #include <atomic>
 #include <condition_variable>
-#include <nlohmann/json.hpp>
+#include "nlohmann/json.hpp"
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp/executor.hpp>
 #include <std_msgs/msg/string.hpp>

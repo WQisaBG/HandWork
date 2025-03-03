@@ -113,7 +113,7 @@ motor_control_command_msgs__msg__MotorControlCommand__copy(
 }
 
 motor_control_command_msgs__msg__MotorControlCommand *
-motor_control_command_msgs__msg__MotorControlCommand__create(void)
+motor_control_command_msgs__msg__MotorControlCommand__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   motor_control_command_msgs__msg__MotorControlCommand * msg = (motor_control_command_msgs__msg__MotorControlCommand *)allocator.allocate(sizeof(motor_control_command_msgs__msg__MotorControlCommand), allocator.state);
