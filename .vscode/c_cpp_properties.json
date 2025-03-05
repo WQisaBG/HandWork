@@ -4,9 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/jazzy/include/**",
+                "/opt/ros/humble/include/**",
                 "~/HandWork/hand_ws/src/thirdparty/**"
-
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
